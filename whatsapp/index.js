@@ -1,8 +1,4 @@
-		/*var str = "file:///C:/ProgFiles/Roman/XML/GitHub/Whatsapp/whatsapp.html";
-		var decode = btoa(str);
-		alert (decode + `\n` + atob(decode));*/
-		
-		function detect_platform() { 
+		function whatsappURL() { 
 			return ( navigator.userAgent.match(/Android/i)
 				|| navigator.userAgent.match(/webOS/i)
 				|| navigator.userAgent.match(/iPhone/i)
@@ -10,7 +6,7 @@
 				|| navigator.userAgent.match(/iPod/i)
 				|| navigator.userAgent.match(/BlackBerry/i)
 				|| navigator.userAgent.match(/Windows Phone/i)
-			) ? true : false;
+			) 'whatsapp://' : 'https://web.whatsapp.com/';
 		}
 		
 		function getNum() {			
@@ -24,8 +20,7 @@
 			if (num == '') return;
 			var txt = $("#txt").val();
 			
-			var url = detect_platform() ? 'api' : 'web';
-			url = `https://${url}.whatsapp.com/send?phone=${num}&text=${txt}`;
+			var url = whatsappURL() + "send?phone="${num}&text=${txt}`;
 			window.location.href = url;
 		}
 		
