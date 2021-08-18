@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	<title>Sudoku</title>
+</head>
+
+<body>
+	<h1>Lets Do It.</h1>
+	<table id="sudoku">
+		<tbody id="sudokuBoard">
+		</tbody>
+		<tfoot>
+			<tr id="buttonRow btn-group">
+				<th colspan="3"><button id="checkButton" class="btn1 btn btn-default" onclick="checkTheBoard();">Check
+						my answer</button></th>
+				<th colspan="3"><button id="showButton" class="btn1 btn btn-default" onclick="showValues();">Show the
+						Answer</button></th>
+				<th colspan="3"><button id="restartButton" class="btn1 btn btn-default"
+						onclick="start();">Restart</button></th>
+			</tr>
+			<tr>
+				<td colspan="5">
+					<button id="timerButton" class="btn btn-default" onclick="startStopTimer();"
+						title="Start game">Start Game</button>
+				</td>
+				<td colspan="4" id="spanDiv">
+					<span id="minutes">00</span>
+					<span>:</span>
+					<span id="seconds">00</label>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+
+
+	<script type="text/javascript" src="game1.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
