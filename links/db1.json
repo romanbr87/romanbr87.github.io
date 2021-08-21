@@ -352,7 +352,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "בית חולים רמבם",
@@ -364,7 +365,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "המרכז הרפואי לגליל נהריה",
@@ -376,7 +378,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מרכז רפואי זיו",
@@ -388,7 +391,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "בית החולים האנגלי בנצרת",
@@ -400,7 +404,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "בית החולים האיטלקי בנצרת",
@@ -412,7 +417,8 @@
             "email2": "",
             "tel1:": "",
             "tel2:": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "border": "מוסדות אקדמאים",
@@ -425,7 +431,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "אונ' חיפה",
@@ -437,7 +444,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מכללת עמק יזרעאל",
@@ -449,7 +457,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מכללת אורנים",
@@ -461,7 +470,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מכללת כינרת",
@@ -473,7 +483,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מכללת גליל מערבי",
@@ -485,7 +496,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           }
         ]
       },
@@ -517,7 +529,8 @@
             "email2": "",
             "tel1": "04-907-9000",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "פארק תעשיות משגב",
@@ -529,7 +542,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "פארק תעשיות בר לב",
@@ -541,7 +555,8 @@
             "email2": "",
             "tel1": "1-700-555-080",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מרכז תעסוקה משגב",
@@ -553,7 +568,8 @@
             "email2": "",
             "tel1": "04-990-2055",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "שגיא 2000",
@@ -565,7 +581,8 @@
             "email2": "",
             "tel1": "04-6507765",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "פארק צבאים",
@@ -577,7 +594,22 @@
             "email2": "",
             "tel1": "04-6060770",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
+          },
+          {
+            "border": "שונות",
+            "site_name": "מרכז תעסוקה גולן",
+            "link": "https://www.golanjobs.co.il/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": "",
+            "location": "north"
           }
         ]
       },
@@ -607,7 +639,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מעברים כרמל מנשה",
@@ -619,7 +652,8 @@
             "email2": "",
             "tel1": "",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מעברים גליל מערבי",
@@ -631,7 +665,8 @@
             "email2": "",
             "tel1": "04-9109046",
             "tel2": "",
-            "whatsapp": ""
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "site_name": "מעברים",
@@ -649,11 +684,23 @@
             "site_name": "קו משווה",
             "link": "http://www.kavmashve.org.il/",
             "link2": "",
-            "facebook_link1": "",
+            "facebook_link1": "https://www.facebook.com/kavmashve.amuta/",
+            "linkedIn_link": "",
+            "email1": "Info@kavmashve.org.il",
+            "email2": "",
+            "tel1": "04-9109046",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "גלגל התנופה",
+            "link": "https://metalworks.org.il/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%97%D7%9E%D7%95%D7%AA-%D7%91%D7%A2%D7%A0%D7%A3-%D7%94%D7%9E%D7%AA%D7%9B%D7%AA-%D7%92%D7%9C%D7%92%D7%9C-%D7%94%D7%AA%D7%A0%D7%95%D7%A4%D7%94-101594718779629/",
             "linkedIn_link": "",
             "email1": "",
             "email2": "",
-            "tel1": "04-9109046",
+            "tel1": "",
             "tel2": "",
             "whatsapp": ""
           },
@@ -1293,6 +1340,8 @@
             "link2": "https://www.facebook.com/profile.php?id=100052103627838",
             "facebook_link1": "https://www.facebook.com/taglitgroup/",
             "facebook_link2": "https://www.facebook.com/%D7%AA%D7%92%D7%9C%D7%99%D7%AA-%D7%9B%D7%95%D7%97-%D7%90%D7%93%D7%9D-%D7%95%D7%94%D7%A9%D7%9E%D7%94-107426107708406/",
+            "facebook_link3": ["https://www.facebook.com/profile.php?id=100063508478931"
+            ],
             "linkedIn_link": "",
             "instagram_link": "https://www.instagram.com/taglit_group/",
             "email1": "leah@taglit-group.co.il",
@@ -1315,13 +1364,13 @@
             "whatsapp": "054-789-0420"
           },
           {
-            "site_name": "מ.ס.ס שירותי כוח אדם",
-            "link": "https://www.facebook.com/MSS-Manpower-Security-Service-ltd-563655484098499/",
+            "site_name": "DovJob",
+            "link": "https://www.dovjob.co.il/",
             "link2": "",
-            "facebook_link1": "",
+            "facebook_link1": "https://www.facebook.com/DovJob/",
             "linkedIn_link": "",
             "instagram_link": "",
-            "email1": "mss2job@gmail.com",
+            "email1": "contact@dovjob.co.il",
             "email2": "",
             "tel1": "054-692-3310",
             "tel2": "",
@@ -1434,7 +1483,7 @@
             "link": "http://www.pharma-job.co.il/jobs/",
             "link2": "",
             "facebook_link1": "https://www.facebook.com/pharma.job.co.il/",
-            "linkedIn_link": "",
+            "linkedIn_link": "https://www.linkedin.com/company/pharma-job/?originalSubdomain=il/",
             "email1": "",
             "email2": "",
             "tel1": "",
@@ -1704,13 +1753,26 @@
             "tel1": "",
             "tel2": "",
             "whatsapp": ""
+          },
+          {
+            "site_name": "אתוסיה",
+            "link": "https://www.ethosia.co.il//",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/ethosia/",
+            "linkedIn_link": "https://www.linkedin.com/company/ethosia/",
+            "email1": "info@ethosia.com",
+            "email2": "",
+            "tel1": "03-767-8999",
+            "tel2": "",
+            "whatsapp": ""
           }
         ]
       },
       {
-        "name": "אתרים לחיפוש עבודה",
+        "name": "אתרי דרושים",
         "links": [
           {
+            "border": "אתרי דרושים",
             "site_name": "משרות",
             "link": "https://www.misrot.com/",
             "link2": "",
@@ -1798,7 +1860,82 @@
             "site_name": "מובטל",
             "link": "https://www.muvtal.co.il/",
             "link2": "",
+            "facebook_link1": "https://www.facebook.com/muvtal/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "סחבק",
+            "link": "https://www.sahbak.co.il/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/sahbakIL/",
+            "linkedIn_link": "",
+            "instagram_link": "https://www.instagram.com/sahbak_il/",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "border": "מנועי חיפוש",
+            "site_name": "indeed",
+            "link": "https://il.indeed.com/",
+            "link2": "",
             "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "careerjet",
+            "link": "https://www.careerjet.co.il/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "border": "שונות",
+            "site_name": "הפורטל לחקלאות, טבע והסביבה",
+            "link": "https://www.israel.agrisupportonline.com/drushim/csv/csvread.pl?mytemplate=tp1/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/jobs.kfar/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "פסיכולוגיה עברית",
+            "link": "https://www.hebpsy.net/bulletinBoard_list.asp/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "פקש",
+            "link": "https://www.pakash.co.il/page.asp?cat=3/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/pakash.co.il",
             "linkedIn_link": "",
             "email1": "",
             "email2": "",
@@ -1809,7 +1946,7 @@
         ]
       },
       {
-        "name": "חברות הייטק",
+        "name": "חברות הייטק",  
         "links": [
           {
             "site_name": "Sqlink",
@@ -1842,9 +1979,9 @@
         "links": [
           {
             "border": "חברות בתחום הביטחון",
-            "site_name": "אלביט",
-            "link": "https://elbit.hunterhrms.com/index.php?lang=%D7%A2%D7%91/",
-            "link2": "",
+            "site_name":  "אלביט מערכות",
+            "link": "https://elbitsystemscareer.com/",
+            "link2": "https://elbitsystems.com/careers/",
             "facebook_link1": "https://www.facebook.com/Elbitsystems/",
             "linkedIn_link": "",
             "email1": "recruitment@elbitsystems.com",
@@ -1855,9 +1992,9 @@
           },
           {
             "site_name": "רפאל",
-            "link": "https://career.rafael.co.il/search/",
+            "link": "https://career.rafael.co.il/",
             "link2": "",
-            "facebook_link1": "",
+            "facebook_link1": "https://www.facebook.com/RafaelCareer/",
             "linkedIn_link": "",
             "email1": "",
             "email2": "",
@@ -1876,6 +2013,32 @@
             "tel1": "",
             "tel2": "",
             "whatsapp": ""
+          },
+          {
+            "border": "חברות בתחום האלקטרוניקה",
+            "site_name": "אלביט",
+            "link": "https://elbit.hunterhrms.com/index.php?lang=%D7%A2%D7%91/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "Maytronics",
+            "link": "https://careers.maytronics.co.il/",
+            "link2": "https://www.comeet.com/jobs/maytronics/E3.008",
+            "facebook_link1": "",
+            "linkedIn_link": "https://www.linkedin.com/company/maytronics/",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": "",
+            "location": "north"
           },
           {
             "border": "חברות מזון",
@@ -1945,20 +2108,6 @@
             "link2": "",
             "facebook_link1": "",
             "linkedIn_link": "",
-            "email1": "",
-            "email2": "",
-            "tel1": "",
-            "tel2": "",
-            "whatsapp": "",
-            "location": "north"
-          },
-          {
-            "border": "שונות",
-            "site_name": "Maytronics",
-            "link": "https://www.meyeden.co.il/meyeden/career/",
-            "link2": "",
-            "facebook_link1": "https://careers.maytronics.co.il/",
-            "linkedIn_link": "https://www.linkedin.com/company/maytronics/",
             "email1": "",
             "email2": "",
             "tel1": "",
@@ -2233,6 +2382,18 @@
             "whatsapp": ""
           },
           {
+            "site_name": "צומת ספרים",
+            "link": "https://www.booknet.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d-%d7%a2%d7%95%d7%91%d7%93%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+        },
+        {
             "site_name": "אופיסדיפו",
             "link": "https://www.officedepot.co.il/pages/27666-דרושים/",
             "link2": "",
@@ -2276,7 +2437,7 @@
           },
           {
             "site_name": "קולטאקט",
-            "link": "",
+            "link": "https://www.facebook.com/calltact/",
             "link2": "",
             "facebook_link1": "",
             "linkedIn_link": "",
@@ -2383,6 +2544,7 @@
             "link": "http://meteor-online.co.il/",
             "link2": "",
             "facebook_link1": "https://www.facebook.com/meteor.sec/",
+            "facebook_link2": "https://www.facebook.com/Drushim.meteor/",
             "linkedIn_link": "",
             "email1": "yossi@meteor-online.co.il",
             "email2": "",
@@ -2391,6 +2553,56 @@
             "whatsapp": ""
           },
           {
+            "site_name": "ש.א.ש אבטחה",
+            "link": "https://sws-security.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/%D7%A9%D7%90%D7%A9-%D7%90%D7%91%D7%98%D7%97%D7%94-168811963139902/",
+            "facebook_link2": "https://www.facebook.com/profile.php?id=100026407639632",
+            "linkedIn_link": "",
+            "email1": "swsltd@bezeqint.net",
+            "email2": "",
+            "tel1": "1700-707-111",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "ש.א.ש שמירה וניקיון",
+            "link": "https://www.shash.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/%D7%A9%D7%90%D7%A9-%D7%A9%D7%A8%D7%95%D7%AA%D7%99-%D7%90%D7%91%D7%98%D7%97%D7%94-%D7%A9%D7%9E%D7%99%D7%A8%D7%94-%D7%95%D7%A0%D7%A7%D7%99%D7%95%D7%9F-%D7%91%D7%A2%D7%9E-359721220818360/",
+            "linkedIn_link": "",
+            "email1": "shs2001@012.net.il",
+            "email2": "",
+            "tel1": "04-6344426",
+            "tel2": "1-700-707-093",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "שרותי אבטחה S.I.H",
+            "link": "http://www.sih-security.com/cncpt_cat/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/israelsih",
+            "linkedIn_link": "",
+            "email1": "reception@sih1.com",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "שניר אבטחה ורפואה",
+            "link": "https://snir-security.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/%D7%A9%D7%A0%D7%99%D7%A8-%D7%90%D7%91%D7%98%D7%97%D7%94-%D7%95%D7%A8%D7%A4%D7%95%D7%90%D7%94-1421316997902662/",
+            "linkedIn_link": "",
+            "email1": "office@snr.org.il",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "border": "חברות כוח אדם בתחום הניקיון",
             "site_name": "לי-אם ניקיון",
             "link": "http://www.liam-nikayon.co.il/",
             "link2": "https://www.facebook.com/profile.php?id=100011370787415",
@@ -2399,6 +2611,19 @@
             "email1": "liamc45@gmail.com",
             "email2": "",
             "tel1": "046405022",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "קבוצת שניר",
+            "link": "https://snir-group.co.il/jobs-snir//",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/snirgroup.co.il/",
+            "facebook_link2": "https://www.facebook.com/profile.php?id=100033436149547/",
+            "linkedIn_link": "",
+            "email1": "shay@snir-group.co.il",
+            "email2": "",
+            "tel1": "0509728158",
             "tel2": "",
             "whatsapp": ""
           },
@@ -2439,7 +2664,33 @@
             "tel1": "1-700-708-778",
             "tel2": "",
             "whatsapp": ""
-          }     
+          },
+          {
+            "border": "חברות ביטוח",
+            "site_name": "הראל",
+            "link": "https://www.harel-group.co.il/careers/Pages/default.aspx",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/%D7%94%D7%90%D7%A0%D7%A9%D7%99%D7%9D-%D7%A9%D7%9C-%D7%94%D7%A8%D7%90%D7%9C-1258555937575423/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "border": "שונות",
+            "site_name": "יוסי אמבולנס",
+            "link": "https://ambulance.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d-2/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/Yossi.ambulance/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          }
         ]
       },
       {
@@ -2517,6 +2768,19 @@
             "facebook_link1": "",
             "linkedIn_link": "",
             "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "דנה ונועה",
+            "link": "http://dananoajobs.com/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/dananoajobs/",
+            "linkedIn_link": "",
+            "instagram_link": "https://www.instagram.com/dana.and.noa/",
+            "email1": "noaohayon@gmail.com",
             "email2": "",
             "tel1": "",
             "tel2": "",
