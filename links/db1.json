@@ -263,43 +263,7 @@
             "whatsapp": ""
           },
           {
-            "border": "גופים שונים הפועלים מטעם המדינה/ממשלה",
-            "site_name": "ביטוח לאומי",
-            "link": "https://www.btl.gov.il/About/jobs/Pages/default.aspx/",
-            "link2": "",
-            "facebook_link1": "",
-            "linkedIn_link": "",
-            "email1": "",
-            "email2": "",
-            "tel1": "",
-            "tel2": "",
-            "whatsapp": ""
-          },
-          {
-            "site_name": "לשכת התעסוקה",
-            "link": "https://www.taasuka.gov.il/he/Applicants/",
-            "link2": "",
-            "facebook_link1": "",
-            "linkedIn_link": "",
-            "email1": "",
-            "email2": "",
-            "tel1": "",
-            "tel2": "",
-            "whatsapp": ""
-          },
-          {
-            "site_name": "מבקר המדינה",
-            "link": "https://www.mevaker.gov.il/he/jobTenders/",
-            "link2": "",
-            "facebook_link1": "",
-            "linkedIn_link": "",
-            "email1": "",
-            "email2": "",
-            "tel1": "",
-            "tel2": "",
-            "whatsapp": ""
-          },
-          {
+            "border": "חברות ממשלתיות",
             "site_name": "חברת חשמל",
             "link": "https://careers.iec.co.il/",
             "link2": "",
@@ -327,6 +291,55 @@
             "site_name": "חברת נתיבי ישראל",
             "link": "https://www.iroads.co.il/%D7%A2%D7%9C-%D7%94%D7%97%D7%91%D7%A8%D7%94/jobs-page/",
             "link2": "  ",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "רכבת ישראל",
+            "link": "https://www.rail.co.il/about/career/",
+            "link2": "https://xn----0hcb7ahk2feih.org.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+            "facebook_link1": "https://www.facebook.com/iRailcareer/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "border": "שונות",
+            "site_name": "ביטוח לאומי",
+            "link": "https://www.btl.gov.il/About/jobs/Pages/default.aspx/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "לשכת התעסוקה",
+            "link": "https://www.taasuka.gov.il/he/Applicants/",
+            "link2": "",
+            "facebook_link1": "",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "מבקר המדינה",
+            "link": "https://www.mevaker.gov.il/he/jobTenders/",
+            "link2": "",
             "facebook_link1": "",
             "linkedIn_link": "",
             "email1": "",
@@ -765,6 +778,18 @@
             "tel1": "",
             "tel2": "",
             "whatsapp": ""
+          },
+          {
+            "site_name": "unistream",
+            "link": "https://unistream.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/unistream/",
+            "linkedIn_link": "",
+            "email1": "",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
           }
         ]
       },
@@ -773,6 +798,7 @@
         "sort": "",
         "links": [
           {
+            "border": "שונות",
             "site_name": "מעוף",
             "link": "https://www.maof-hr.co.il/",
             "link2": "https://jobs.maof-hr.co.il/industry",
@@ -1375,6 +1401,19 @@
             "tel1": "054-692-3310",
             "tel2": "",
             "whatsapp": "054-789-0420"
+          },
+          {
+            "site_name": "MayaJob",
+            "link": "https://mayajob.co.il/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/mayajob.il/",
+            "linkedIn_link": "",
+            "instagram_link": "",
+            "email1": "marinajob3@gmail.com",
+            "email2": "",
+            "tel1": "04-827-1222",
+            "tel2": "",
+            "whatsapp": "052-873-6669"
           }
         ]
       },
@@ -1383,6 +1422,7 @@
         "sort": "",
         "links": [
           {
+            "border": "שונות",
             "site_name": "seev",
             "link": "https://www.seev.co.il/",
             "link2": "",
@@ -1616,9 +1656,9 @@
             "link2": "",
             "facebook_link1": "https://www.facebook.com/kivoon.biz/",
             "linkedIn_link": "",
-            "email1": "",
+            "email1": "shlomit@kivoon.biz",
             "email2": "",
-            "tel1": "",
+            "tel1": "077-207-0490",
             "tel2": "",
             "whatsapp": ""
           },
@@ -1857,6 +1897,30 @@
             "whatsapp": ""
           },
           {
+            "site_name": "Mploy",
+            "link": "https://www.mploy.co.il/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/mploy100/",
+            "linkedIn_link": "",
+            "email1": "info@mploy.co.il",
+            "email2": "",
+            "tel1": "",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
+            "site_name": "J4u",
+            "link": "https://j4u.work/home/",
+            "link2": "",
+            "facebook_link1": "https://www.facebook.com/j4u.work/",
+            "linkedIn_link": "",
+            "email1": "info@j4u.work",
+            "email2": "",
+            "tel1": "050-931-1143",
+            "tel2": "",
+            "whatsapp": ""
+          },
+          {
             "site_name": "מובטל",
             "link": "https://www.muvtal.co.il/",
             "link2": "",
@@ -1949,6 +2013,7 @@
         "name": "חברות הייטק",  
         "links": [
           {
+            "border": "שונות",
             "site_name": "Sqlink",
             "link": "https://www.sqlink.com/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%94%D7%99%D7%99%D7%98%D7%A7/",
             "link2": "",
@@ -2121,6 +2186,7 @@
         "name": "חברות תקשורת",
         "links": [
           {
+            "border": "שונות",
             "site_name": "בזק",
             "link": "https://www.bezeq.co.il/career/",
             "link2": "",
@@ -2424,6 +2490,7 @@
         "name": "מוקדים טלפוניים",
         "links": [          
           {
+            "border": "שונות",
             "site_name": "תקשוב",
             "link": "http://www.tikshoov.co.il/",
             "link2": "",
@@ -2697,6 +2764,7 @@
         "name": "פרסומים בדפי פייסבוק",
         "links": [
           {
+            "border": "שונות",
             "site_name": "לוח עבודות בפייסבוק",
             "link": "https://www.facebook.com/jobs/",
             "link2": "",
@@ -2750,6 +2818,7 @@
         "name": "שונות",
         "links": [
           {
+            "border": "שונות",
             "site_name": "מעגלים",
             "link": "https://www.magalim.org.il/",
             "link2": "",
