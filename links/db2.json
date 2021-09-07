@@ -1,8 +1,8 @@
 {
     "job": [
         {
-            "name": "אתרים מטעם המדינה",
-            "desc": "אתרים של חברות, גופים וארגונים שפועלים מטעם המדינה",
+            "name": "מקומות עבודה ציבוריים",
+            "desc": "מקומות עבודה ציבוריים מטם המדינה",
             "links": [
                 {
                     "cat": "אתרי ממשלה",
@@ -404,7 +404,7 @@
                     ]
                 },
                 {
-                    "cat": "שונות",
+                    "cat": "גופים ציבוריים שונים",
                     "links": [
                         {
                             "site_name": "ביטוח לאומי",
@@ -457,7 +457,7 @@
         },
         {
             "name": "גופים ציבוריים",
-            "desc": "אתרים של חברות, גופים וארגונים שפועלים מטעם מועצות אזוריות/מקומיות/עיריות",
+            "desc": "גופים ציבוריים כמו בנקים, בתי חולים, מוסדות אקדמאיים וכו...",
             "links": [
                 {
                     "cat": "בתי חולים",
@@ -476,8 +476,8 @@
                             "location": "north"
                         },
                         {
-                            "site_name": "בית חולים רמבם",
-                            "link": "https://www.rambam.org.il/about-rambam/jobs/",
+                            "site_name": "בית חולים פוריה",
+                            "link": "http://www.poria.health.gov.il/?CategoryID=1989/",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -561,7 +561,7 @@
                             "location": "north"
                         },
                         {
-                            "site_name": "אונ' חיפה",
+                            "site_name": "אוניברסיטת חיפה",
                             "link": "https://www.haifa.ac.il/index.php/he/open-positions.html/",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/lbraunsht/",
@@ -641,7 +641,7 @@
         },
         {
             "name": "אתרים שפועלים מטעם מועצות",
-            "desc": "אתרים של חברות, גופים וארגונים שפועלים מטעם מועצות אזוריות/מקומיות/עיריות",
+            "desc": "מועצות מקומיות וגופים שקשורים אליהם באופן ישיר",
             "links": [
                 {
                     "cat": "משרות ברשויות מקומיות",
@@ -759,13 +759,43 @@
                     ]
                 },
                 {
-                    "cat": "שונות",
+                    "cat": "שונות בתחום המועצות המקומיות",
                     "links": [
+                        {
+                            "site_name": "מרכז צעירים יקנעם",
+                            "link": "https://www.calcalit-yokneam.org.il/copy-of-3",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/%D7%9E%D7%95%D7%93%D7%A2%D7%95%D7%AA-%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%9E%D7%A8%D7%9B%D7%96-%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-%D7%99%D7%A7%D7%A0%D7%A2%D7%9D-566308213445073/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "04-959-1236",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
                         {
                             "site_name": "מרכז תעסוקה גולן",
                             "link": "https://www.golanjobs.co.il/",
                             "link2": "",
                             "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "קבוצת צמח",
+                            "link": "http://zemach.co.il/sample-page-3/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/zemachcorp/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -800,7 +830,7 @@
                             "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
-                            "location": ""
+                            "location": "north"
                         },
                         {
                             "site_name": "מעברים מעיינות כנרת",
@@ -860,9 +890,44 @@
                             "tel1": "04-9109046",
                             "tel2": "",
                             "whatsapp": "",
-                            "location": ""
+                            "location": "south"
                         },
                         {
+                            "site_name": "מתאם",
+                            "link": "https://www.mitam-hr.org/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "04-9109046",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "אוכלוסיות מיוחדות",
+                    "links": [
+                         {
+                            "site_name": "מעגלים",
+                            "link": "https://www.magalim.org.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/KerenMagalim/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "faxmagalim@magalim.org.il",
+                            "email2": "",
+                            "tel1": "1-800-071-144",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                         },
+                         {
                             "site_name": "קו משווה",
                             "link": "http://www.kavmashve.org.il/",
                             "link2": "",
@@ -940,7 +1005,7 @@
                     ]
                 },
                 {
-                    "cat": "שונות",
+                    "cat": "עמותות שונות",
                     "links": [
                         {
                             "site_name": "אופנים (חינוך בפריפריה כיתות ג' - ו')",
@@ -986,6 +1051,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "פותחים עתיד",
+                            "link": "https://yfcontact.wixsite.com/youthfutures/yfjob/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/yfcontact/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "yfcontact@youthfutures.org",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 }
@@ -996,7 +1076,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "חברות כוח אדם שונות",
                     "links": [
                         {
                             "site_name": "מעוף",
@@ -1774,7 +1854,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "חברות כוח אדם של הייטק ותפקידים איכותיים",
                     "links": [
                         {
                             "site_name": "seev",
@@ -2243,7 +2323,7 @@
                         },
                         {
                             "site_name": "אתוסיה",
-                            "link": "https://www.ethosia.co.il//",
+                            "link": "https://www.ethosia.co.il/",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/ethosia/",
                             "facebook_link2": "",
@@ -2252,6 +2332,21 @@
                             "email1": "info@ethosia.com",
                             "email2": "",
                             "tel1": "03-767-8999",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Cyber-Jobs",
+                            "link": "https://www.cyber-jobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/CYBERJOBSIL/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "08-617-4000",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -2403,6 +2498,21 @@
                             "location": ""
                         },
                         {
+                            "site_name": "ג'וב קליק",
+                            "link": "https://jobclick.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/jobclick/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "info@jobclick.co.il",
+                            "email2": "",
+                            "tel1": "054-808-2852",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
                             "site_name": "מובטל",
                             "link": "https://www.muvtal.co.il/",
                             "link2": "",
@@ -2470,7 +2580,7 @@
                     ]
                 },
                 {
-                    "cat": "שונות",
+                    "cat": "מודעות דרושים בתחומים שונים",
                     "links": [
                         {
                             "site_name": "הפורטל לחקלאות, טבע והסביבה",
@@ -2526,7 +2636,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "חברות הייטק שונות",
                     "links": [
                         {
                             "site_name": "Sqlink",
@@ -2671,7 +2781,7 @@
                         },
                         {
                             "site_name": "אסם",
-                            "link": "https://www.osem.co.il/contact-service-center/jobs/",
+                            "link": "https://www.osem-nestle.co.il/career/",
                             "link2": "https://www.osem-nestle.co.il/career/",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -2758,7 +2868,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "חברות תקשורת שונות",
                     "links": [
                         {
                             "site_name": "בזק",
@@ -2983,7 +3093,7 @@
                         },
                         {
                             "site_name": "יינות ביתן",
-                            "link": "https://www.ybitan.co.il/web-pages/7/",
+                            "link": "https://www.ybitan.co.il/web-pages/7",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -3160,7 +3270,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "מוקדים טלפוניים שונים",
                     "links": [
                         {
                             "site_name": "תקשוב",
@@ -3499,7 +3609,7 @@
                     ]
                 },
                 {
-                    "cat": "שונות",
+                    "cat": "חברות שונות",
                     "links": [
                         {
                             "site_name": "יוסי אמבולנס",
@@ -3525,7 +3635,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "דפי תעסוקה בפייסבוק",
                     "links": [
                         {
                             "site_name": "לוח עבודות בפייסבוק",
@@ -3596,23 +3706,8 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "שונות",
+                    "cat": "אתרים, חברות וכל מה שמסביב לעולם התעסוקה",
                     "links": [
-                        {
-                            "site_name": "מעגלים",
-                            "link": "https://www.magalim.org.il/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/KerenMagalim/",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "faxmagalim@magalim.org.il",
-                            "email2": "",
-                            "tel1": "1-800-071-144",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
                         {
                             "site_name": "אתר קורסים ממשלתי",
                             "link": "https://campus.gov.il/course/",
@@ -3647,5 +3742,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "text": {
+		"desc": "",
+		"about": ""
+	}
+
 }
