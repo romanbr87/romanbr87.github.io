@@ -45,6 +45,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/israel.civil.service.career/",
                             "email1": "",
                             "email2": "",
                             "tel1": "077-920-8568",
@@ -669,13 +670,13 @@
                         {
                             "site_name": "משרות באזור תעשייה תפן",
                             "link": "https://www.tefen.muni.il/index.php?dir=site&page=jobs&op=category&cs=6030",
-                            "link2": "",
+                            "link2": "https://www.tefen.muni.il/index.php?dir=site&page=jobs&op=category&cs=6030",
                             "facebook_link1": "https://www.facebook.com/migdaltefen/",
-                            "facebook_link2": "",
+                            "facebook_link2": "https://www.facebook.com/tefenjobs",
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "email1": "info@tefen.org.il",
-                            "email2": "",
+                            "email2": "support@tefen.muni.il",
                             "tel1": "04-907-9000",
                             "tel2": "",
                             "whatsapp": "",
@@ -891,21 +892,6 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": "south"
-                        },
-                        {
-                            "site_name": "מתאם",
-                            "link": "https://www.mitam-hr.org/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "04-9109046",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
                         }
                     ]
                 },
@@ -1066,6 +1052,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "מתאם",
+                            "link": "https://www.mitam-hr.org/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "office@mitam-hr.org",
+                            "email2": "",
+                            "tel1": "03-3730091",
+                            "tel2": "03-3730092",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 }
@@ -1094,6 +1095,7 @@
                                 "https://www.facebook.com/Maofhotels/"
                             ],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/maof_hr/",
                             "email1": "maof@maof-group.co.il",
                             "email2": "",
                             "tel1": "072-392-2160",
@@ -1761,6 +1763,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/extra__job/",
                             "email1": "cv@extra-job.co.il",
                             "email2": "",
                             "tel1": "",
@@ -1793,6 +1796,7 @@
                                 "https://www.facebook.com/profile.php?id=100063508478931"
                             ],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/taglit_group/",
                             "email1": "leah@taglit-group.co.il",
                             "email2": "info@taglit-group.co.il",
                             "tel1": "04-9982107",
@@ -2535,6 +2539,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/sahbak_il/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -2636,7 +2641,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "חברות הייטק שונות",
+                    "cat": "חברות הייטק",
                     "links": [
                         {
                             "site_name": "Sqlink",
@@ -2661,6 +2666,26 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "שונות בתחום ההייטק",
+                    "links": [
+                        {
+                            "site_name": "המרכז לחינוך סייבר",
+                            "link": "https://cyber.org.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/cybereducationcenter/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/cyber-education-center/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -3605,6 +3630,51 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "מגדל",
+                            "link": "https://www.migdal.co.il/about/jobs",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/lifeatmigdal/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "ביטוח ישיר",
+                            "link": "https://www.555.co.il/about/career.html/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "איילון",
+                            "link": "https://www.ayalon-ins.co.il/about-us/career/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -3731,6 +3801,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "instagram_link": "https://www.instagram.com/dana.and.noa/",
                             "email1": "noaohayon@gmail.com",
                             "email2": "",
                             "tel1": "",
