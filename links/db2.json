@@ -3347,6 +3347,46 @@
                             "location": ""
                         }
                     ]
+                },
+                {
+                    "cat": "מזון מהיר",
+                    "links": [
+                        {
+                            "site_name": "בורגראנץ'",
+                            "link": "https://app.burgeranch.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "בתי קפה",
+                    "links": [
+                        {
+                            "site_name": "גרג",
+                            "link": "http://gregcafe.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
                 }
             ]
         },
