@@ -516,7 +516,7 @@
                             "location": "north"
                         },
                         {
-                            "site_name": "בית החולים האנגלי בנצרת",
+                            "site_name": "בית חולים האנגלי בנצרת",
                             "link": "https://nazhosp.com/jobs/?lang=he/",
                             "link2": "",
                             "facebook_link1": "",
@@ -529,7 +529,7 @@
                             "location": "north"
                         },
                         {
-                            "site_name": "בית החולים האיטלקי בנצרת",
+                            "site_name": "בית חולים האיטלקי בנצרת",
                             "link": "https://hfhosp.org/he/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-0/",
                             "link2": "",
                             "facebook_link1": "",
@@ -549,8 +549,23 @@
                         {
                             "site_name": "טכניון",
                             "link": "https://hr.technion.ac.il/positions/",
-                            "link2": "",
+                            "link2": "https://hr.trdf.co.il/%D7%9C%D7%95%D7%97_%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "facebook_link1": "https://www.facebook.com/TechnionJobs",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "משרות סטודנט בטככניון",
+                            "link": "https://hr.technion.ac.il/positions-for-students/",
+                            "link2": "http://www.asat.org.il/life/contents/temp-jobs",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -650,6 +665,21 @@
                         {
                             "site_name": "נמר (מכרזי כוח אדם ברשויות)",
                             "link": "https://namerz.moin.gov.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "החברה למשק וכלכלה - משכל",
+                            "link": "https://www.mashcal.co.il/jobs/",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
