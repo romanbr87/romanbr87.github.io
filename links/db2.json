@@ -1097,7 +1097,38 @@
                             "tel2": "03-3730092",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "רמות",
+                            "link": "http://rammot.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/rammotgroup/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קרן רשי",
+                            "link": "https://rashi.org.il/career/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/rashifoundation1984/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
+
                     ]
                 }
             ]
@@ -2033,9 +2064,9 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
+                            "email1": "facebook@dialog.co.il",
                             "email2": "",
-                            "tel1": "",
+                            "tel1": "073-225-5100",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -3721,7 +3752,7 @@
                             "link": "https://www.harel-group.co.il/careers/Pages/default.aspx",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/%D7%94%D7%90%D7%A0%D7%A9%D7%99%D7%9D-%D7%A9%D7%9C-%D7%94%D7%A8%D7%90%D7%9C-1258555937575423/",
-                            "facebook_link2": "",
+                            "facebook_link2": "https://www.facebook.com/%D7%94%D7%A8%D7%90%D7%9C-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%95%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99%D7%9D-2380086858887189/",
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "email1": "",
@@ -3815,7 +3846,27 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": " info@madatech.org.il",
+                            "email1": "info@madatech.org.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "ללא קטגוריה",
+                    "links": [
+                        {
+                            "site_name": "target market",
+                            "link": "https://target-market.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
