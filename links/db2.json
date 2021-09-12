@@ -46,7 +46,7 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "instagram_link": "https://www.instagram.com/israel.civil.service.career/",
-                            "email1": "",
+                            "email1": "giyus@bynetos.co.il",
                             "email2": "",
                             "tel1": "077-920-8568",
                             "tel2": "",
@@ -188,6 +188,21 @@
                             "link": "https://www.police.gov.il/join",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/israel.giyus.police/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "שבס",
+                            "link": "https://govextra.gov.il/ips/recruitment/home/",
+                            "link2": "",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -392,6 +407,21 @@
                             "link": "https://www.rail.co.il/about/career/",
                             "link2": "https://xn----0hcb7ahk2feih.org.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "facebook_link1": "https://www.facebook.com/iRailcareer/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מקורות",
+                            "link": "https://mekorot-jobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -1362,21 +1392,6 @@
                             "location": ""
                         },
                         {
-                            "site_name": "אדם מילא",
-                            "link": "https://adam-milo.co.il/job-seekers/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%93%D7%9D-%D7%9E%D7%99%D7%9C%D7%90/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/adam.milo.il/",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
                             "site_name": "ירימי",
                             "link": "http://www.yarimi.co.il/",
                             "link2": "",
@@ -1746,7 +1761,7 @@
                             "linkedIn_link": "",
                             "email1": "info@radar.org.il",
                             "email2": "",
-                            "tel1": "",
+                            "tel1": "0775537420",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -1909,7 +1924,123 @@
                             "tel2": "",
                             "whatsapp": "052-873-6669",
                             "location": ""
+                        },
+                        {
+                            "site_name": "Ytaron",
+                            "link": "https://ytaron.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Hot.Jobs.Ytaron",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "info@ytaron.co.il",
+                            "email2": "",
+                            "tel1": "053-545-0783",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "zamir - זמיר",
+                            "link": "https://www.zamir-jobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/zamir.jobs/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "mida@zamir-jobs.co.il",
+                            "email2": "",
+                            "tel1": "04-867-6006",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "פוזישן השמה אחרת",
+                            "link": "http://www.position-hr.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/%D7%A4%D7%95%D7%96%D7%99%D7%A9%D7%9F-%D7%94%D7%A9%D7%9E%D7%94-%D7%90%D7%97%D7%A8%D7%AA-131721246894907/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "cv@position-hr.co.il",
+                            "email2": "",
+                            "tel1": "08-9456065",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "אנשים",
+                            "link": "https://anash.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "הייר משאבי אנוש",
+                            "link": "https://www.higher-hr.com/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/%D7%94%D7%99%D7%99%D7%A8-%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-1687695028173903/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "035612929",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "מכוני אבחון",
+            "desc": "",
+            "links": [
+                {
+                    "cat": "מכוני אבחון",
+                    "links": [                       
+                        {
+                            "site_name": "אדם מילא",
+                            "link": "https://adam-milo.co.il/job-seekers/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%91%D7%90%D7%93%D7%9D-%D7%9E%D7%99%D7%9C%D7%90/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/adam.milo.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מכון נועם",
+                            "link": "https://www.machon-noam.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/psychometric.test/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }                    
                     ]
                 }
             ]
@@ -2430,6 +2561,71 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "jobhunt",
+                            "link": "https://www.jobhunt.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/jobhunt.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "office@jobhunt.co.il",
+                            "email2": "",
+                            "tel1": "051-511-9030",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קפסולה פתרונות משאבי אנוש",
+                            "link": "https://www.facebook.com/%D7%A7%D7%A4%D7%A1%D7%95%D7%9C%D7%94-%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA-%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-1937282576536940/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "hagitav@capsula-hr.co.il",
+                            "email2": "",
+                            "tel1": "0527073995",
+                            "tel2": "",
+                            "whatsapp": "+972 52-707-3995",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "חברות כוח אדם בתחום הכלכלה",
+                    "links": [                       
+                        {
+                            "site_name": "הון אנוש",
+                            "link": "https://www.hon-enosh.com/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/hon.enosh.hasama/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "03-620-0299",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "הון אנוש",
+                            "link": "http://www.spoint.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/spoint.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "03-5614003",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 }
@@ -2616,6 +2812,123 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "instagram_link": "https://www.instagram.com/sahbak_il/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "jobnews",
+                            "link": "http://www.jobnews.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "jobby",
+                            "link": "http://www.jobby.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "הומלס - homeless",
+                            "link": "https://www.homeless.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "דרושים ללא ניסיון",
+                            "link": "http://www.no-nisayon.com/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/drushim.lelo.nisayon/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "משרות חלקיות לסטודנטים וחיילים",
+                    "links": [
+                        {
+                            "site_name": "StudenJob",
+                            "link": "http://www.studentjob.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "לימודים בישראל",
+                            "link": "https://student.universities-colleges.org.il/P32441/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "האגף לחיילים משוחררים",
+                            "link": "https://www.hachvana.mod.gov.il/employment/Pages/default.aspx",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -3550,7 +3863,7 @@
                     ]
                 },
                 {
-                    "cat": "חברות אבטחה וניקיון",
+                    "cat": "חברות אבטחה, שמירה וניקיון",
                     "links": [
                         {
                             "site_name": "בן ביטחון",
@@ -3656,6 +3969,37 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "עמישב",
+                            "link": "https://amishav.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/moked.amishav/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "tzvika@amishav.co.il",
+                            "email2": "",
+                            "tel1": "03-575-0664",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קבוצת צוות 3 - team 3",
+                            "link": "https://www.team3.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/team3group/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/team-3-group/",
+                            "instagram_link": "https://www.instagram.com/team3_group/",
+                            "email1": "support@team3.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -3738,6 +4082,21 @@
                             "email1": "karinb@m-s-d.co.il",
                             "email2": "inon@m-s-d.co.il‏",
                             "tel1": "1-700-708-778",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קבוצת דנאל",
+                            "link": "https://edanel.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/DanelTeam/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -3872,6 +4231,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "דרך חדשה בתנועה - neway Traffic",
+                            "link": "https://neway1.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "OFFICE@NEWAY1.CO.IL",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 }
@@ -3980,6 +4354,38 @@
                             "linkedIn_link": "",
                             "instagram_link": "https://www.instagram.com/dana.and.noa/",
                             "email1": "noaohayon@gmail.com",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "jobzone",
+                            "link": "https://jobzone.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "HRus משאבי אנוש זה אנחנו",
+                            "link": "https://www.hrus.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/HRus.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
