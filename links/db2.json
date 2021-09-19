@@ -1202,6 +1202,21 @@
                             "tel2": "054-9299737",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "אותות",
+                            "link": "https://www.otot-il.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/ototil/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "mail@otot-il.org.il",
+                            "email2": "",
+                            "tel1": "02-671-0095",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
 
                     ]
@@ -2306,6 +2321,102 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "מידן ג'וב",
+                            "link": "https://www.facebook.com/PORTALJOBIL/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "talent@talent.org.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מידן ג'וב",
+                            "link": "https://www.facebook.com/PORTALJOBIL/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "talent@talent.org.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "בועז מנדלביץ שירותי משאבי אנוש",
+                            "link": "https://www.boazhr.com/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/bm.hr.services/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/in/boazhr/",
+                            "instagram_link": "",
+                            "email1": "talent@talent.org.il",
+                            "email2": "",
+                            "tel1": "052-3239746",
+                            "tel2": "073-3905651",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "גלשן שווקים משאבי אנוש",
+                            "link": "https://galshan.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/galshanhr/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "shmira@galshan.co.il",
+                            "email2": "cv@galshan.co.il",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מיכל גלבוע - ניהול קריירות, ייעוץ מנהלים וליווי משאבי אנוש",
+                            "link": "https://michalgilboa.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/michalgilboa.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/in/michal-gilboa-b746045/",
+                            "instagram_link": "",
+                            "email1": "michal@michalgilboa.co.il",
+                            "email2": "",
+                            "tel1": "052-2499313",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "express job",
+                            "link": "https://www.facebook.com/Expressjobsisrael",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "michal@michalgilboa.co.il",
+                            "email2": "",
+                            "tel1": "058-560-9095",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -2805,22 +2916,7 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
-                        },
-                        {
-                            "site_name": "העתיד שלך",
-                            "link": "http://www.yourfuture.co.il/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
+                        },                   
                         {
                             "site_name": "Quest HR",
                             "link": "https://www.quest-hr.com/he/",
@@ -3488,6 +3584,22 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "thesite",
+                            "link": "http://www.thesite.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -3895,7 +4007,62 @@
                             "location": "north"
                         }
                     ]
-                }
+                },
+                {
+                    "cat": "מפעלי הייטק",
+                    "links": [                       
+                        {
+                            "site_name": "Maytrinics - מייטרוניקס",
+                            "link": "https://careers.maytronics.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/MaytronicsIsrael/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/maytronics/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "⁦",
+                            "location": "north"
+                        }
+                    ]
+                },
+                {
+                    "cat": "חברות, שונות",
+                    "links": [                       
+                        {
+                            "site_name": "קבוצת ארד",
+                            "link": "https://arad.co.il/he/branch/arad-inc/",
+                            "link2": "https://arad.co.il/he/branch/arad-tech-inc/",
+                            "facebook_link1": "https://www.facebook.com/TheAradGroup/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "04-989-7911",
+                            "tel2": "",
+                            "whatsapp": "⁦",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "כמיפל משאבי אנוש",
+                            "link": "http://www.chemipal.co.il/he/%d7%a7%d7%a8%d7%99%d7%a8%d7%94-3/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/chemipaljobs/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/chemipal/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "09-8633633",
+                            "tel2": "",
+                            "whatsapp": "⁦",
+                            "location": "center"
+                        }
+                    ]
+                }               
             ]
         },
         {
@@ -4352,7 +4519,7 @@
                             "link": "http://www.tikshoov.co.il/",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/tikshoov1/",
-                            "facebook_link2": "",
+                            "facebook_link2": "https://www.facebook.com/tikshoovfromhome/",
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "email1": "",
@@ -4994,6 +5161,36 @@
                             "email1": "",
                             "email2": "",
                             "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "העתיד שלך",
+                            "link": "http://www.yourfuture.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },                       {
+                            "site_name": "אשנב",
+                            "link": "https://www.eshnav-ltd.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/eshnavcareer/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "info@eshnav-ltd.co.il",
+                            "email2": "",
+                            "tel1": "037444941",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
