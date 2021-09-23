@@ -81,6 +81,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
+                            "instagram_link": "https://instagram.com/govo_drushim",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -405,7 +406,7 @@
                         {
                             "site_name": "חברת נתיבי ישראל",
                             "link": "https://www.iroads.co.il/%D7%A2%D7%9C-%D7%94%D7%97%D7%91%D7%A8%D7%94/jobs-page/",
-                            "link2": "  ",
+                            "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -1770,7 +1771,7 @@
                             "site_name": "indplace",
                             "link": "https://indplace.co.il/",
                             "link2": "",
-                            "facebook_link1": " ",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -2411,9 +2412,25 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "instagram_link": "",
-                            "email1": "michal@michalgilboa.co.il",
+                            "email1": "",
                             "email2": "",
-                            "tel1": "058-560-9095",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "תמי מגייסת",
+                            "link": "https://www.facebook.com/%D7%AA%D7%9E%D7%99-%D7%9E%D7%92%D7%99%D7%99%D7%A1%D7%AA-100970618790785/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -3538,6 +3555,22 @@
                             "location": ""
                         },
                         {
+                            "site_name": "NegevJobs נגב ג'ובס",
+                            "link": "https://www.negevjobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/negevjobscoil/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "info@negevjobs.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "south"
+                        },
+                        {
                             "site_name": "דרושים ללא ניסיון",
                             "link": "http://www.no-nisayon.com/",
                             "link2": "",
@@ -3892,13 +3925,73 @@
                             "location": ""
                         },
                         {
-                            "site_name": "Maytronics",
-                            "link": "https://careers.maytronics.co.il/",
-                            "link2": "https://www.comeet.com/jobs/maytronics/E3.008",
+                            "site_name": "Acs motion control",
+                            "link": "https://acsmotioncontrol.com/careers/",
+                            "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "https://www.linkedin.com/company/maytronics/",
+                            "linkedIn_link": "https://www.linkedin.com/company/acs-motion-control/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "Flex - פלקס",
+                            "link": "https://flex.com/careers/locations/israel",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "RH",
+                            "link": "https://www.facebook.com/rhtechsocial/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "Tower Semiconductor - טאוור סמיקונדוקטור",
+                            "link": "https://careers.towersemi.com/",
+                            "link2": "https://careers.towersemi.com/our-locations/israel/",
+                            "facebook_link1": "https://www.facebook.com/towersemi/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/tower-semiconductor/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "PCB Technologies",
+                            "link": "https://pcb-technologies.com/pages/career-at-pcb-technologies-1",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/pcbtechnologiesltd/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/pcb/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -4014,7 +4107,7 @@
                         {
                             "site_name": "Maytrinics - מייטרוניקס",
                             "link": "https://careers.maytronics.co.il/",
-                            "link2": "",
+                            "link2": "https://www.comeet.com/jobs/maytronics/E3.008",
                             "facebook_link1": "https://www.facebook.com/MaytronicsIsrael/",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -4025,7 +4118,23 @@
                             "tel2": "",
                             "whatsapp": "⁦",
                             "location": "north"
+                        },
+                        {
+                            "site_name": "Solaredge",
+                            "link": "https://www.solaredge.com/corporate/join-us/israel/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/solaredge/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/solaredge/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
+
                     ]
                 },
                 {
@@ -4151,7 +4260,7 @@
                             "site_name": "סלקום",
                             "link": "https://www.cellcom.co.il/careers/",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/794097617429191/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -4504,7 +4613,88 @@
                             "location": ""
                         }
                     ]
+                },
+                {
+                    "cat": "תחנות דלק",
+                    "links": [                       
+                        {
+                            "site_name": "דור אלון",
+                            "link": "https://www.doralon.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "hr.jobs@doralon.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "סונול",
+                            "link": "https://www.sonol.co.il/job/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@sonol.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "דלק",
+                            "link": "https://www.delek.co.il/career",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "פז",
+                            "link": "https://www.paz.co.il/he-IL/careers",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טן - ten",
+                            "link": "https://10ten.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
                 }
+                
             ]
         },
         {
@@ -4512,7 +4702,7 @@
             "desc": "",
             "links": [
                 {
-                    "cat": "מוקדים טלפוניים שונים",
+                    "cat": "מוקדים טלפוניים כלליים",
                     "links": [
                         {
                             "site_name": "תקשוב",
@@ -4547,6 +4737,41 @@
                             "link": "https://babcomcenters.com/he/",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/babcom.centers/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טלאול teleall",
+                            "link": "https://www.teleall.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "מוקדים, שונות",
+                    "links": [                       
+                        {
+                            "site_name": "קישורית",
+                            "link": "https://www.kishurit.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "https://www.kishurit.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
