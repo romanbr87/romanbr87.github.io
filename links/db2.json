@@ -4340,7 +4340,7 @@
                             "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
-                            "location": ""
+                            "location": "north"
                         },
                         {
                             "site_name": "שופרסל",
@@ -4481,6 +4481,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "ללין",
+                            "link": "https://www.laline.co.il/careers/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Laline.Israel",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -4571,6 +4586,36 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "זולסטוק",
+                            "link": "https://www.zolstock.co.il/%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%91%D7%96%D7%95%D7%9C-%D7%A1%D7%98%D7%95%D7%A7/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/zolstock/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מקסטוק - Maxstock",
+                            "link": "https://jobsil.topmatch.co.il/positions?AffiliateId=513704/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -4615,43 +4660,13 @@
                     ]
                 },
                 {
-                    "cat": "תחנות דלק",
-                    "links": [                       
+                    "cat": "חנויות",
+                    "links": [
                         {
-                            "site_name": "דור אלון",
-                            "link": "https://www.doralon.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "site_name": "ריקושט",
+                            "link": "https://www.rikushet.co.il/jobs/",
                             "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "hr.jobs@doralon.co.il",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "סונול",
-                            "link": "https://www.sonol.co.il/job/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "jobs@sonol.co.il",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "דלק",
-                            "link": "https://www.delek.co.il/career",
-                            "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/rikushet/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -4663,24 +4678,9 @@
                             "location": ""
                         },
                         {
-                            "site_name": "פז",
-                            "link": "https://www.paz.co.il/he-IL/careers",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "טן - ten",
-                            "link": "https://10ten.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94",
-                            "link2": "",
+                            "site_name": "Ikea - איקאה",
+                            "link": "https://www.ikea.co.il/content/page/jobs",
+                            "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
                             "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -4694,7 +4694,6 @@
                         }
                     ]
                 }
-                
             ]
         },
         {
@@ -4841,6 +4840,101 @@
                     ]
                 },
                 {
+                    "cat": "תחנות דלק",
+                    "links": [                       
+                        {
+                            "site_name": "דור אלון",
+                            "link": "https://www.doralon.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "hr.jobs@doralon.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "סונול",
+                            "link": "https://www.sonol.co.il/job/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@sonol.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "דלק",
+                            "link": "https://www.delek.co.il/career",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "פז",
+                            "link": "https://www.paz.co.il/he-IL/careers",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טן - ten",
+                            "link": "https://10ten.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "מיקה",
+                            "link": "https://mika.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/mikafuel.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@k-group.biz",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
                     "cat": "מכוני כושר",
                     "links": [
                         {
@@ -4856,6 +4950,36 @@
                             "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "סטודיוC",
+                            "link": "https://www.studioc.co.il/jobs/",
+                            "link2": "https://www.studioc.co.il/%d7%9c%d7%93%d7%a8%d7%99%d7%a9%d7%94/",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "space - ספייס",
+                            "link": "https://www.spaceclub.co.il/clubs/clubSubPage.aspx?clubId=18&pageId=41/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "info@spaceclub.co.il",
                             "location": ""
                         }
                     ]
@@ -5154,6 +5278,26 @@
                             "link": "https://www.ayalon-ins.co.il/about-us/career/",
                             "link2": "",
                             "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "השקעות",
+                    "links": [                       
+                        {
+                            "site_name": "אלטשולר שחם",
+                            "link": "https://careers.topmatch.co.il/AltshulerShaham/",
+                            "link2": "https://www.as-invest.co.il/about/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
+                            "facebook_link1": "https://www.facebook.com/ASInvest/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
