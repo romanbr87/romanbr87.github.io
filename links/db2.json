@@ -3998,6 +3998,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": "north"
+                        },
+                        {
+                            "site_name": "אלקטרה",
+                            "link": "https://www.ecp.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/%D7%9C%D7%A2%D7%91%D7%95%D7%93-%D7%91%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%94/",
+                            "link2": "https://www.ecp.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/search-jobs/",
+                            "facebook_link1": "https://www.facebook.com/ecpcoil.hr/ת",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
                         }
                     ]
                 },
@@ -4321,6 +4336,95 @@
             ]
         },
         {
+            "name": "מוקדים טלפוניים",
+            "desc": "",
+            "links": [
+                {
+                    "cat": "מוקדים טלפוניים כלליים",
+                    "links": [
+                        {
+                            "site_name": "תקשוב",
+                            "link": "http://www.tikshoov.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/tikshoov1/",
+                            "facebook_link2": "https://www.facebook.com/tikshoovfromhome/",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קולטאקט",
+                            "link": "https://www.facebook.com/calltact/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@calltact.co.il",
+                            "email2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "באבקום",
+                            "link": "https://babcomcenters.com/he/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/babcom.centers/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טלאול teleall",
+                            "link": "https://www.teleall.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "מוקדים, שונות",
+                    "links": [                       
+                        {
+                            "site_name": "קישורית",
+                            "link": "https://www.kishurit.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "https://www.kishurit.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "רשתות וחנויות",
             "desc": "",
             "links": [
@@ -4418,10 +4522,10 @@
                             "location": ""
                         },
                         {
-                            "site_name": "מחסני השוק",
-                            "link": "https://m-shuk.net/jobs/",
+                            "site_name": "פרשמרקט",
+                            "link": "https://www.freshmarket.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "link2": "",
-                            "facebook_link1": "https://www.facebook.com/profile.php?id=100003986885046",
+                            "facebook_link1": "https://www.facebook.com/drushim.freshmarket/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -4433,10 +4537,85 @@
                             "location": ""
                         },
                         {
-                            "site_name": "פרשמרקט",
-                            "link": "https://www.freshmarket.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "site_name": "מחסני השוק",
+                            "link": "https://m-shuk.net/jobs/",
                             "link2": "",
-                            "facebook_link1": "https://www.facebook.com/drushim.freshmarket/",
+                            "facebook_link1": "https://www.facebook.com/mshuk1/",
+                            "facebook_link2": "https://www.facebook.com/profile.php?id=100003986885046",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "am:pm",
+                            "link": "https://www.ampm.co.il/web-pages/52/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/AMPM.IL/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@ampm.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "חצי חינם",
+                            "link": "https://www.hazi-hinam.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/hazihinam/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טיב טעם",
+                            "link": "https://www.tivtaam.co.il/web-pages/27",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/TivTaamIL/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "סטופמרקט",
+                            "link": "https://www.stopmarket.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-2/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/stopmarketisrael/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קוויק - quik",
+                            "link": "https://www.info.quik.co.il/career",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/quiksupermarket/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -4620,6 +4799,101 @@
                     ]
                 },
                 {
+                    "cat": "רשתות מוצרי חשמל",
+                    "links": [                       
+                        {
+                            "site_name": "מחסני חשמל",
+                            "link": "https://www.payngo.co.il/jobs/",
+                            "link2": "https://www.payngo.co.il/jobs2/",
+                            "link3": "https://www.ecp.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/%d7%9e%d7%97%d7%a1%d7%a0%d7%99-%d7%97%d7%a9%d7%9e%d7%9c/",
+                            
+                            "facebook_link1": "https://www.facebook.com/payngo/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "shania@ecp.co.il",
+                            "email2": "",
+                            "tel1": "058-6556447",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "שקם אלקטריק",
+                            "link": "https://www.shekem-electric.co.il/shekem-jobs/",
+                            "link2": "",
+                            "link3": "",
+                            "facebook_link1": "https://www.facebook.com/shekemelectric/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "shania@ecp.co.il",
+                            "email2": "",
+                            "tel1": "058-6556447",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טרקלין חשמך",
+                            "link": "https://www.traklin.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "link3": "",
+                            "facebook_link1": "https://www.facebook.com/traklin/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "חנויות, שונות",
+                    "links": [
+                        {
+                            "site_name": "ריקושט",
+                            "link": "https://www.rikushet.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/rikushet/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Ikea - איקאה",
+                            "link": "https://www.ikea.co.il/content/page/jobs",
+                            "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "רשתות ועסקים בתחום המזון",
+            "desc": "",
+            "links": [
+                {
                     "cat": "מזון מהיר",
                     "links": [
                         {
@@ -4658,131 +4932,7 @@
                             "location": ""
                         }
                     ]
-                },
-                {
-                    "cat": "חנויות",
-                    "links": [
-                        {
-                            "site_name": "ריקושט",
-                            "link": "https://www.rikushet.co.il/jobs/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/rikushet/",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "Ikea - איקאה",
-                            "link": "https://www.ikea.co.il/content/page/jobs",
-                            "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "מוקדים טלפוניים",
-            "desc": "",
-            "links": [
-                {
-                    "cat": "מוקדים טלפוניים כלליים",
-                    "links": [
-                        {
-                            "site_name": "תקשוב",
-                            "link": "http://www.tikshoov.co.il/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/tikshoov1/",
-                            "facebook_link2": "https://www.facebook.com/tikshoovfromhome/",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "קולטאקט",
-                            "link": "https://www.facebook.com/calltact/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "jobs@calltact.co.il",
-                            "email2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "באבקום",
-                            "link": "https://babcomcenters.com/he/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/babcom.centers/",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "טלאול teleall",
-                            "link": "https://www.teleall.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        }
-                    ]
-                },
-                {
-                    "cat": "מוקדים, שונות",
-                    "links": [                       
-                        {
-                            "site_name": "קישורית",
-                            "link": "https://www.kishurit.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
-                            "link2": "https://www.kishurit.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        }
-                    ]
-                }
+                }                
             ]
         },
         {
