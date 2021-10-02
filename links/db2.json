@@ -2334,23 +2334,7 @@
                             "instagram_link": "",
                             "email1": "talent@talent.org.il",
                             "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "מידן ג'וב",
-                            "link": "https://www.facebook.com/PORTALJOBIL/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "instagram_link": "",
-                            "email1": "talent@talent.org.il",
-                            "email2": "",
-                            "tel1": "",
+                            "tel1": "050-586-9926",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -2424,6 +2408,22 @@
                             "link": "https://www.facebook.com/%D7%AA%D7%9E%D7%99-%D7%9E%D7%92%D7%99%D7%99%D7%A1%D7%AA-100970618790785/",
                             "link2": "",
                             "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "TeleJobs",
+                            "link": "https://www.telejobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/telejobs.co.il/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -2747,21 +2747,6 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "פארמה ג'וב",
-                            "link": "http://www.pharma-job.co.il/jobs/",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/pharma.job.co.il/",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "https://www.linkedin.com/company/pharma-job/?originalSubdomain=il/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -3230,6 +3215,46 @@
                             "email1": "info@giustech.co.il",
                             "email2": "cv@giustech.co.il",
                             "tel1": "072-2220025",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "השמת בכירים",
+                    "links": [                       
+                        {
+                            "site_name": "רחלי הראל",
+                            "link": "http://www.racheliharel.com/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "Job@racheliharel.com",
+                            "email2": "Racheli@racheliharel.com",
+                            "tel1": "054-7878800",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "כוח אדם של תפקידים איכותיים, תחומים ספציפיים",
+                    "links": [                       
+                        {
+                            "site_name": "פארמה ג'וב",
+                            "link": "http://www.pharma-job.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/pharma.job.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/pharma-job/?originalSubdomain=il/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -4336,7 +4361,7 @@
             ]
         },
         {
-            "name": "מוקדים טלפוניים",
+            "name": "מוקדים טלפוניים ומכירות",
             "desc": "",
             "links": [
                 {
@@ -4409,7 +4434,7 @@
                             "site_name": "קישורית",
                             "link": "https://www.kishurit.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "link2": "https://www.kishurit.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/kishurit/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -4421,7 +4446,57 @@
                             "location": ""
                         }
                     ]
-                }
+                },
+                {
+                    "cat": "כרטיסי אשראי",
+                    "links": [                       
+                        {
+                            "site_name": "Max - מקס",
+                            "link": "https://www.max.co.il/he-il/Jobs/Pages/Default.aspx/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/max.finance.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Cal ויזה",
+                            "link": "https://www.cal-online.co.il/about/jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Cal.Online/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "ישראכרט",
+                            "link": "https://digital.isracard.co.il/careers/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Isracardfb/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                }                
             ]
         },
         {
@@ -4853,6 +4928,191 @@
                     ]
                 },
                 {
+                    "cat": "חנויות בגדים, נעליים",
+                    "links": [                       
+                        {
+                            "site_name": "Golf gropup - קבוצת גולף",
+                            "link": "https://www.golfgroup.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d-2/",
+                            "link2": "https://www.golfgroup.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "facebook_link1": "https://www.facebook.com/golf.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "גולף - Golf",
+                            "link": "https://www.golf-il.co.il/jobs-career/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/golf.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@golfco.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "עדיקא - Adika",
+                            "link": "https://www.adikastyle.com/adika-jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/AdiKaF.S/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@adikastyle.com",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Intima",
+                            "link": "https://www.intima-il.co.il/jobs-career/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/intima.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@golfco.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Castro",
+                            "link": "https://www.castro.com/jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/castro.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Timberland",
+                            "link": "https://www.timberland.co.il/careers-timberland-page/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/timberland.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Delta - דלתא",
+                            "link": "https://www.delta.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/delta.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Aldo",
+                            "link": "https://www.aldoshoes.co.il/career/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/AldoShoesIsrael/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Gali",
+                            "link": "https://www.gali.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טבע נאות",
+                            "link": "https://www.tevanaot.co.il/careers/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/tevanaotshoes/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Togo Shoes",
+                            "link": "https://www.tevanaot.co.il/careers/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/togoshoes/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Zara - זארה",
+                            "link": "https://www.zara.com/il/he/help/jobs-company-h48.html/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Zara/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }                     
+                    ]
+                },
+                {
                     "cat": "חנויות, שונות",
                     "links": [
                         {
@@ -4875,6 +5135,21 @@
                             "link": "https://www.ikea.co.il/content/page/jobs",
                             "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
                             "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "ריקושט",
+                            "link": "https://www.lametayel.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/lametayel/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -5119,7 +5394,7 @@
                         },
                         {
                             "site_name": "space - ספייס",
-                            "link": "https://www.spaceclub.co.il/clubs/clubSubPage.aspx?clubId=18&pageId=41/",
+                            "link": "https://www.spaceclub.co.il/clubs/clubSubPage.aspx?clubId=18&pageId=41",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -5507,7 +5782,7 @@
                     ]
                 },
                 {
-                    "cat": "ללא קטגוריה",
+                    "cat": "שונות ללא קטגוריה",
                     "links": [
                         {
                             "site_name": "target market",
@@ -5533,6 +5808,21 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "email1": "OFFICE@NEWAY1.CO.IL",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קליבר מטרות",
+                            "link": "https://www.kaliber.co.il/%D7%A7%D7%9C%D7%99%D7%91%D7%A8-%D7%9E%D7%98%D7%A8%D7%95%D7%AA-%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/kaliber.comm/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
