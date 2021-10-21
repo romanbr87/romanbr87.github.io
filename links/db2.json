@@ -485,8 +485,8 @@
                         },
                         {
                             "site_name": "מבקר המדינה",
-                            "link": "https://www.mevaker.gov.il/he/jobTenders/",
-                            "link2": "",
+                            "link": "https://www.mevaker.gov.il/he/UsefulInformation/Pages/Drushim.aspx?AspxAutoDetectCookieSupport=1",
+                            "link2": "https://www.mevaker.gov.il/he/jobTenders/",
                             "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -1086,8 +1086,8 @@
                         },
                         {
                             "site_name": "אחריי",
-                            "link": "http://www.aharai.org.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
-                            "link2": "",
+                            "link": "https://aharai.org.il/career_opportunities/",
+                            "link2": "https://aharai.org.il/%D7%91%D7%95%D7%A0%D7%99%D7%9D-%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/",
                             "facebook_link1": "https://www.facebook.com/אחריי-דרושים-הון-אנושי-1676602249275817/",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -1218,8 +1218,37 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "מטב",
+                            "link": "https://www.matav.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/matavcareer ",
+                            "facebook_link2": "https://www.facebook.com/hahorim.shelanu",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "שקל",
+                            "link": "https://www.shekel.org.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/shekeldisability/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
-
                     ]
                 }
             ]
@@ -1333,10 +1362,10 @@
                             "location": ""
                         },
                         {
-                            "site_name": "אורטל משאבי אנוש",
+                            "site_name": "אורטל ולעבודה",
                             "link": "https://www.ortal-hr.co.il/",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/ortal.hr/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -2396,9 +2425,9 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "instagram_link": "",
-                            "email1": "",
+                            "email1": "expressjob99@gmail.com",
                             "email2": "",
-                            "tel1": "",
+                            "tel1": "058-560-9095",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -2431,6 +2460,82 @@
                             "email1": "",
                             "email2": "",
                             "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "ExpandJobs",
+                            "link": "https://bizexpand.co.il/%D7%90%D7%A7%D7%A1%D7%A4%D7%A0%D7%93-%D7%92%D7%95%D7%91%D7%A1/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/expandjobs/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "galihaimovich@icloud.com",
+                            "email2": "",
+                            "tel1": "052-385-9237",
+                            "tel2": "",
+                            "whatsapp": "052-385-9237",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קרין אביב - ייעוץ ארגוני ומשאבי אנוש לסטארט אפ וארגונים",
+                            "link": "https://www.facebook.com/karinaviv.ppr/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "ppr@karinaviv.co.il",
+                            "email2": "",
+                            "tel1": "054-9222800",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "GoJob",
+                            "link": "",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/GoJobAfula/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "gojobmisrad@gmail.com",
+                            "email2": "",
+                            "tel1": "050-852-6108",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Your next job",
+                            "link": "",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/Your-next-job-100888552353573/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "nofarh.hr@gmail.com",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Kai-hr קאי",
+                            "link": "https://kai-hr.com/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/kaihr1/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "08-911-1163",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -3218,8 +3323,38 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "Lr-Job",
+                            "link": "",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/MESROT/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "cv@lr-job.co.il",
+                            "email2": "",
+                            "tel1": "04-8383758",
+                            "tel2": "04-8882030",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "GotFriends",
+                            "link": "https://www.gotfriends.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/GotFriends.co.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/gotfriends/",
+                            "email1": "03-542-4568",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
-                    ]
+                   ]
                 },
                 {
                     "cat": "השמת בכירים",
@@ -3258,7 +3393,23 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "חפציבה משאבי אנוש",
+                            "link": "https://www.facebook.com/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%97%D7%99%D7%A4%D7%95%D7%A9-%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%97%D7%A4%D7%A6%D7%99%D7%91%D7%94-%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-172618112771953/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "liat518@gmail.com",
+                            "email2": "",
+                            "tel1": "052-545-4516",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
+
                     ]
                 },
                 {
@@ -3290,36 +3441,6 @@
                             "email1": "",
                             "email2": "",
                             "tel1": "03-5614003",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "חפציבה משאבי אנוש",
-                            "link": "https://www.facebook.com/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%97%D7%99%D7%A4%D7%95%D7%A9-%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%97%D7%A4%D7%A6%D7%99%D7%91%D7%94-%D7%9E%D7%A9%D7%90%D7%91%D7%99-%D7%90%D7%A0%D7%95%D7%A9-172618112771953/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "liat518@gmail.com",
-                            "email2": "",
-                            "tel1": "052-545-4516",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "קרין אביב - ייעוץ ארגוני ומשאבי אנוש לסטארט אפ וארגונים",
-                            "link": "https://www.facebook.com/karinaviv.ppr/",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "ppr@karinaviv.co.il",
-                            "email2": "",
-                            "tel1": "054-9222800",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -4285,6 +4406,7 @@
                             "site_name": "פלאפון",
                             "link": "https://www.pelephone.co.il/digitalsite/heb/jobs/",
                             "link2": "https://jobs.pelephone.co.il/",
+                            "link3": "https://correct-tech.co.il/LP/ALL?id=psrox_hln_xux_ng_jnh_puwws_pqn/",
                             "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -4860,7 +4982,7 @@
                             "site_name": "מקסטוק - Maxstock",
                             "link": "https://jobsil.topmatch.co.il/positions?AffiliateId=513704/",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/MAXISRAELLTD/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -5221,13 +5343,13 @@
                             "site_name": "avis - השכרת רכב",
                             "link": "https://www.avis.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/Avis.Israel/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
+                            "email1": "jobs@avis.co.il",
                             "email2": "",
-                            "tel1": "",
+                            "tel1": "03-656-892103-656-8921",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -5258,6 +5380,21 @@
                             "email1": "",
                             "email2": "",
                             "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קבוצת UMI",
+                            "link": "https://www.chevrolet.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "http://www.umigroup.co.il/",
+                            "facebook_link1": "https://www.facebook.com/umigroupjobs",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@avis.co.il",
+                            "email2": "",
+                            "tel1": "03-656-892103-656-8921",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -5651,7 +5788,7 @@
                     ]
                 },
                 {
-                    "cat": "חברות ביטוח",
+                    "cat": "חברות ביטוח, פיננסים והשקעות",
                     "links": [
                         {
                             "site_name": "הראל",
@@ -5712,12 +5849,7 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
-                        }
-                    ]
-                },
-                {
-                    "cat": "השקעות",
-                    "links": [                       
+                        },
                         {
                             "site_name": "אלטשולר שחם",
                             "link": "https://careers.topmatch.co.il/AltshulerShaham/",
@@ -5729,6 +5861,21 @@
                             "email1": "",
                             "email2": "",
                             "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קבוצת AMG",
+                            "link": "http://amg.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/AmgJobs/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "hr@amgltd.co.il",
+                            "email2": "",
+                            "tel1": "03-564-3100",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
