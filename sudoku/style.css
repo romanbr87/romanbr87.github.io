@@ -21,7 +21,7 @@ body {
     "Segoe UI Symbol",
     "Noto Color Emoji";
 
-	background-image: url('https://i.paste.pics/a4d308c61e4593f4868f205e64866f1e.png');
+	background-image: url('./Imgs/ocean-3605547_1280.jpg'); /*url('https://i.paste.pics/a4d308c61e4593f4868f205e64866f1e.png');*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
