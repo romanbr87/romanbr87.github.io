@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Styled SVG Analog and Digital Watch</title>
+    <title>Pure CSS Analog Watch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -46,22 +46,13 @@
             stroke-width: 1;
         }
 
-        .hands path {
+        .hands path, .hands line {
             transform-origin: 50% 50%;
-            transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.6, 1);
         }
-
-        #hourHand {
-            fill: #333;
-        }
-
-        #minuteHand {
-            fill: #333;
-        }
-
-        #secondHand {
-            fill: #ff3333;
-        }
+        
+        #hourHand { fill: #333; }
+        #minuteHand { fill: #333; }
+        #secondHand { stroke: #ff3333; }
 
         .markers line {
             stroke: #666;
@@ -83,7 +74,7 @@
             stroke: #fff;
             stroke-width: 0.5;
         }
-
+        
         /* Digital watch style */
         .digital-watch {
             margin-top: 20px;
@@ -131,7 +122,7 @@
 
     // Create markers and numbers dynamically
     for (let i = 1; i <= 12; i++) {
-        const angle = i * 30; // 360 / 12 = 30 degrees
+        const angle = i * 30;
         const rad = (angle - 90) * (Math.PI / 180);
 
         // Marker
@@ -146,21 +137,17 @@
         // Number
         const number = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         
-        // Corrected: Use a single radius to position numbers on a circle
+        // Corrected: Use trigonometry to position numbers on a circle
         const numberRadius = 40;
         
         number.setAttribute('x', 50 + numberRadius * Math.cos(rad));
         number.setAttribute('y', 50 + numberRadius * Math.sin(rad));
         
-        // Correct for text rendering issues by adjusting for a two-digit number
-        if (i > 9) {
-          number.setAttribute('x', 50 + (numberRadius - 1) * Math.cos(rad));
-        }
-
         number.textContent = i;
         numbersGroup.appendChild(number);
     }
     
+    // The core of the CSS-driven animation
     function updateWatch() {
         const now = new Date();
         const hours = now.getHours();
