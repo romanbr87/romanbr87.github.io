@@ -146,14 +146,17 @@
         // Number
         const number = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         
-        // Corrected: Use trigonometry to position numbers on a circle
+        // Corrected: Use a single radius to position numbers on a circle
         const numberRadius = 40;
         
         number.setAttribute('x', 50 + numberRadius * Math.cos(rad));
         number.setAttribute('y', 50 + numberRadius * Math.sin(rad));
         
-        number.style.dominantBaseline = "central"; 
-        
+        // Correct for text rendering issues by adjusting for a two-digit number
+        if (i > 9) {
+          number.setAttribute('x', 50 + (numberRadius - 1) * Math.cos(rad));
+        }
+
         number.textContent = i;
         numbersGroup.appendChild(number);
     }
