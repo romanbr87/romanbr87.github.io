@@ -113,7 +113,7 @@
     // Function to position clock numbers
     function positionNumbers() {
         const clock = document.getElementById('analog-clock');
-        const radius = clock.offsetWidth / 2 - 30; // 30px margin from the edge
+        const radius = clock.offsetWidth / 2 - 20; // 20px margin from the edge
         const center = clock.offsetWidth / 2;
 
         for (let i = 1; i <= 12; i++) {
@@ -139,9 +139,10 @@
         const hours = now.getHours();
 
         // Analog clock logic
-        const secondDegrees = (seconds * 6) + 90;
-        const minuteDegrees = (minutes * 6) + (seconds * 0.1) + 90;
-        const hourDegrees = (hours % 12 * 30) + (minutes * 0.5) + 90;
+        // Rotations are calculated from 12 o'clock (0 degrees)
+        const secondDegrees = seconds * 6; // 360/60 = 6 deg/sec
+        const minuteDegrees = (minutes * 6) + (seconds * 0.1); // 360/60 = 6 deg/min, 6/60 = 0.1 deg/sec
+        const hourDegrees = (hours % 12 * 30) + (minutes * 0.5); // 360/12 = 30 deg/hr, 30/60 = 0.5 deg/min
 
         document.getElementById('second-hand').style.transform = `rotate(${secondDegrees}deg)`;
         document.getElementById('minute-hand').style.transform = `rotate(${minuteDegrees}deg)`;
