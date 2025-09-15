@@ -11,11 +11,9 @@
         }
         .clock-container {
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            text-align: center;
         }
         .clock {
             position: relative;
@@ -25,7 +23,6 @@
             background-color: #fff;
             border: 5px solid #343a40;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            margin-bottom: 2rem;
         }
         .clock::before {
             content: '';
@@ -61,20 +58,31 @@
             height: 160px;
             background-color: #dc3545;
         }
-        .numbers-row {
-            display: flex;
-            justify-content: space-around;
-            width: 80%;
-            max-width: 600px;
-        }
         .number {
+            position: absolute;
             font-size: 1.5rem;
             font-weight: bold;
             color: #343a40;
-            padding: 0 5px;
-            flex-grow: 1;
+            width: 30px;
+            height: 30px;
             text-align: center;
+            line-height: 30px;
         }
+        
+        /* Positioning the numbers dynamically */
+        .n12 { transform: translate(-50%, -50%) rotate(0deg) translate(0, -165px) rotate(0deg); }
+        .n1 { transform: translate(-50%, -50%) rotate(30deg) translate(0, -165px) rotate(-30deg); }
+        .n2 { transform: translate(-50%, -50%) rotate(60deg) translate(0, -165px) rotate(-60deg); }
+        .n3 { transform: translate(-50%, -50%) rotate(90deg) translate(0, -165px) rotate(-90deg); }
+        .n4 { transform: translate(-50%, -50%) rotate(120deg) translate(0, -165px) rotate(-120deg); }
+        .n5 { transform: translate(-50%, -50%) rotate(150deg) translate(0, -165px) rotate(-150deg); }
+        .n6 { transform: translate(-50%, -50%) rotate(180deg) translate(0, -165px) rotate(-180deg); }
+        .n7 { transform: translate(-50%, -50%) rotate(210deg) translate(0, -165px) rotate(-210deg); }
+        .n8 { transform: translate(-50%, -50%) rotate(240deg) translate(0, -165px) rotate(-240deg); }
+        .n9 { transform: translate(-50%, -50%) rotate(270deg) translate(0, -165px) rotate(-270deg); }
+        .n10 { transform: translate(-50%, -50%) rotate(300deg) translate(0, -165px) rotate(-300deg); }
+        .n11 { transform: translate(-50%, -50%) rotate(330deg) translate(0, -165px) rotate(-330deg); }
+
         /* Mobile compatibility */
         @media (max-width: 576px) {
             .clock {
@@ -90,11 +98,11 @@
             .second-hand {
                 height: 140px;
             }
-            .numbers-row {
-                width: 100%;
-            }
             .number {
                 font-size: 1.2rem;
+            }
+            .n12, .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .n9, .n10, .n11 {
+                 transform: translate(-50%, -50%) rotate(var(--angle)) translate(0, -115px) rotate(calc(var(--angle) * -1));
             }
         }
     </style>
@@ -106,20 +114,19 @@
         <div class="hand hour-hand" id="hour-hand"></div>
         <div class="hand minute-hand" id="minute-hand"></div>
         <div class="hand second-hand" id="second-hand"></div>
-    </div>
-    <div class="numbers-row">
-        <div class="number">1</div>
-        <div class="number">2</div>
-        <div class="number">3</div>
-        <div class="number">4</div>
-        <div class="number">5</div>
-        <div class="number">6</div>
-        <div class="number">7</div>
-        <div class="number">8</div>
-        <div class="number">9</div>
-        <div class="number">10</div>
-        <div class="number">11</div>
-        <div class="number">12</div>
+        
+        <div class="number n12">12</div>
+        <div class="number n1">1</div>
+        <div class="number n2">2</div>
+        <div class="number n3">3</div>
+        <div class="number n4">4</div>
+        <div class="number n5">5</div>
+        <div class="number n6">6</div>
+        <div class="number n7">7</div>
+        <div class="number n8">8</div>
+        <div class="number n9">9</div>
+        <div class="number n10">10</div>
+        <div class="number n11">11</div>
     </div>
 </div>
 
