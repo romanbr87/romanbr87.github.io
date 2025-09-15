@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SVG Analog and Digital Watch</title>
+    <title>Styled SVG Analog and Digital Watch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -11,7 +11,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #e0e0e0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #333;
         }
@@ -20,21 +20,51 @@
             width: 90vw;
             max-width: 500px;
             text-align: center;
+            position: relative;
+        }
+        
+        .analog-watch {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
         }
 
-        svg {
+        /* SVG styles */
+        #watch {
             display: block;
             width: 100%;
             height: auto;
-            border: 2px solid #333;
-            border-radius: 50%;
-            background-color: #fff;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
-        
-        /* Analog Watch Styles */
+
+        .bezel {
+            fill: url(#bezelGradient);
+            stroke: #666;
+            stroke-width: 1;
+        }
+
+        .hands path {
+            transform-origin: 50% 50%;
+            transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.6, 1);
+        }
+
+        #hourHand {
+            fill: #333;
+        }
+
+        #minuteHand {
+            fill: #333;
+        }
+
+        #secondHand {
+            fill: #ff3333;
+        }
+
         .markers line {
-            stroke: #555;
+            stroke: #666;
             stroke-width: 1;
             transform-origin: 50% 50%;
         }
@@ -44,47 +74,57 @@
             text-anchor: middle;
             dominant-baseline: central;
             fill: #333;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
         }
 
-        .hands line {
-            stroke-linecap: round;
-            transform-origin: 50% 50%;
+        #centerPivot {
+            fill: #333;
+            stroke: #fff;
+            stroke-width: 0.5;
         }
         
-        #hourHand { stroke: #000; stroke-width: 4; }
-        #minuteHand { stroke: #000; stroke-width: 3; }
-        #secondHand { stroke: #ff0000; stroke-width: 1; }
-        #centerPivot { fill: #333; }
-
-        /* Digital Watch Styles */
+        /* Digital watch style */
         .digital-watch {
             margin-top: 20px;
             font-size: 3em;
-            font-weight: bold;
+            font-weight: 300;
             color: #2c3e50;
             letter-spacing: 2px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
         }
+
     </style>
 </head>
 <body>
 
 <div class="watch-container">
-    <svg id="watch" viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="49" fill="none" stroke="#333" stroke-width="1" />
-        
-        <g id="markers"></g>
+    <div class="analog-watch">
+        <svg id="watch" viewBox="0 0 100 100">
+            <defs>
+                <linearGradient id="bezelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ccc;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#f0f0f0;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#888;stop-opacity:1" />
+                </linearGradient>
+            </defs>
 
-        <g id="numbers"></g>
+            <circle cx="50" cy="50" r="49" class="bezel" />
+            
+            <g id="markers"></g>
+            
+            <g id="numbers"></g>
 
-        <g class="hands">
-            <line id="hourHand" x1="50" y1="50" x2="50" y2="30" />
-            <line id="minuteHand" x1="50" y1="50" x2="50" y2="20" />
-            <line id="secondHand" x1="50" y1="50" x2="50" y2="15" />
-        </g>
-        
-        <circle id="centerPivot" cx="50" cy="50" r="3" />
-    </svg>
-
+            <g class="hands">
+                <path id="hourHand" d="M 50 50 L 48 35 L 50 15 L 52 35 Z" />
+                <path id="minuteHand" d="M 50 50 L 49 30 L 50 10 L 51 30 Z" />
+                <line id="secondHand" x1="50" y1="50" x2="50" y2="15" />
+            </g>
+            
+            <circle id="centerPivot" cx="50" cy="50" r="3" />
+        </svg>
+    </div>
+    
     <div class="digital-watch" id="digital-clock"></div>
 </div>
 
@@ -98,21 +138,22 @@
 
     // Create markers and numbers dynamically
     for (let i = 1; i <= 12; i++) {
-        const angle = i * 30; // 360 / 12 = 30 degrees
-        const rad = (angle - 90) * (Math.PI / 180); // Convert to radians for math
+        const angle = i * 30;
+        const rad = (angle - 90) * (Math.PI / 180);
 
         // Marker
         const marker = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        const length = i % 3 === 0 ? 6 : 4; // Longer markers for 3, 6, 9, 12
         marker.setAttribute('x1', 50 + 44 * Math.cos(rad));
         marker.setAttribute('y1', 50 + 44 * Math.sin(rad));
-        marker.setAttribute('x2', 50 + 47 * Math.cos(rad));
-        marker.setAttribute('y2', 50 + 47 * Math.sin(rad));
+        marker.setAttribute('x2', 50 + (44 - length) * Math.cos(rad));
+        marker.setAttribute('y2', 50 + (44 - length) * Math.sin(rad));
         markersGroup.appendChild(marker);
 
         // Number
         const number = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        number.setAttribute('x', 50 + 38 * Math.cos(rad));
-        number.setAttribute('y', 50 + 38 * Math.sin(rad));
+        number.setAttribute('x', 50 + 34 * Math.cos(rad));
+        number.setAttribute('y', 50 + 34 * Math.sin(rad));
         number.textContent = i;
         numbersGroup.appendChild(number);
     }
@@ -140,7 +181,6 @@
         digitalClock.textContent = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
     }
     
-    // Animate the watch
     setInterval(updateWatch, 1000);
     updateWatch();
 </script>
