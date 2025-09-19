@@ -14,35 +14,35 @@
     <meta name="google" content="notranslate" />
     <meta name="title" content="Roman's Portfolio" />
     <meta name="application-name" content="Roman's Portfolio" />
-    <meta name="description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta name="description" content="A portfolio showcasing full stack development projects by Roman." />
     <meta name="keywords" content="Roman, portfolio, full stack, developer, web development, projects, JavaScript, HTML, CSS" />
     <meta name="author" content="Roman" />
     <link rel="canonical" href="https://romanbr87.github.io/" />
     <meta name="application-url" content="https://romanbr87.github.io/" />
-    <link rel="icon" href="https://placehold.co/32x32/667eea/ffffff?text=R" />
-    <link id="favicon" rel="shortcut icon" href="https://placehold.co/32x32/667eea/ffffff?text=R" />
-    <link rel="apple-touch-icon" href="https://placehold.co/180x180/667eea/ffffff?text=R" />
+    <link rel="icon" href="https://i.ibb.co/L8Gj18j/Favicon-R.png" />
+    <link id="favicon" rel="shortcut icon" href="https://i.ibb.co/L8Gj18j/Favicon-R.png" />
+    <link rel="apple-touch-icon" href="https://i.ibb.co/tKkP2YJ/Apple-Touch-Icon-R.png" />
     <meta itemprop="name" content="Roman's Portfolio" />
-    <meta itemprop="description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
-    <meta itemprop="image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
-    <meta name="image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
+    <meta itemprop="description" content="A portfolio showcasing full stack development projects by Roman." />
+    <meta itemprop="image" content="https://i.ibb.co/3k5fHw0/Roman-Portfolio.png" />
+    <meta name="image" content="https://i.ibb.co/3k5fHw0/Roman-Portfolio.png" />
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="Roman's Portfolio" />
     <meta property="og:site_name" content="Roman's Portfolio" />
-    <meta property="og:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta property="og:description" content="A portfolio showcasing full stack development projects by Roman." />
     <meta property="og:url" content="https://romanbr87.github.io/" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
-    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image" content="https://i.ibb.co/3k5fHw0/Roman-Portfolio.png" />
+    <meta property="og:image:type" content="image/png" />
 
     <meta name="twitter:title" content="Roman's Portfolio" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ronenbr60" />
-    <meta name="twitter:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
-    <meta name="twitter:text:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
-    <meta name="twitter:image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
-    <meta name="twitter:image:src" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
+    <meta name="twitter:description" content="A portfolio showcasing full stack development projects by Roman." />
+    <meta name="twitter:text:description" content="A portfolio showcasing full stack development projects by Roman." />
+    <meta name="twitter:image" content="https://i.ibb.co/3k5fHw0/Roman-Portfolio.png" />
+    <meta name="twitter:image:src" content="https://i.ibb.co/3k5fHw0/Roman-Portfolio.png" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -132,40 +132,58 @@
     document.addEventListener("DOMContentLoaded", () => {
         const container = document.getElementById("projects-container");
 
-        fetch('projects.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(projects => {
-                projects.forEach((project, index) => {
-                    const projectHtml = `
-                        <div class="col-12 project-item" style="animation-delay: ${0.1 + (index * 0.1)}s;">
-                            <div class="card border-0 bg-light h-100">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title text-primary">
-                                        <i class="${project.iconClass} me-2"></i>${project.title}
-                                    </h5>
-                                    <p class="card-text text-muted mb-3">${project.description}</p>
-                                    <a href="${project.projectUrl}" class="btn btn-outline-primary btn-sm">
-                                        View Project <i class="fas fa-external-link-alt ms-1"></i>
-                                    </a>
-                                    <a href="${project.githubUrl}" class="btn btn-dark btn-sm ms-2">
-                                        <i class="fab fa-github me-1"></i>GitHub
-                                    </a>
-                                </div>
-                            </div>
+        const projects = [
+            {
+                "title": "Sudoku Game",
+                "description": "Interactive puzzle game with modern UI",
+                "projectUrl": "https://romanbr87.github.io/sudoku/",
+                "githubUrl": "https://github.com/romanbr87/romanbr87.github.io/tree/main/sudoku",
+                "iconClass": "fas fa-puzzle-piece"
+            },
+            {
+                "title": "WhatsApp Application",
+                "description": "Messaging application clone with modern features",
+                "projectUrl": "https://romanbr87.github.io/whatsapp/",
+                "githubUrl": "https://github.com/romanbr87/romanbr87.github.io/tree/main/whatsapp",
+                "iconClass": "fab fa-whatsapp"
+            },
+            {
+                "title": "Employment Websites Catalog",
+                "description": "Comprehensive directory of job search platforms",
+                "projectUrl": "https://Kishurit.vercel.app/",
+                "githubUrl": "https://github.com/Kishurit",
+                "iconClass": "fas fa-briefcase"
+            },
+            {
+                "title": "Shopping List",
+                "description": "A simple, modern shopping list application.",
+                "projectUrl": "https://shopping-list-beta-eosin.vercel.app/",
+                "githubUrl": "https://github.com/romanbr87/ShoppingList",
+                "iconClass": "fas fa-shopping-cart"
+            }
+        ];
+
+        projects.forEach((project, index) => {
+            const projectHtml = `
+                <div class="col-12 project-item" style="animation-delay: ${0.1 + (index * 0.1)}s;">
+                    <div class="card border-0 bg-light h-100">
+                        <div class="card-body p-4">
+                            <h5 class="card-title text-primary">
+                                <i class="${project.iconClass} me-2"></i>${project.title}
+                            </h5>
+                            <p class="card-text text-muted mb-3">${project.description}</p>
+                            <a href="${project.projectUrl}" class="btn btn-outline-primary btn-sm">
+                                View Project <i class="fas fa-external-link-alt ms-1"></i>
+                            </a>
+                            <a href="${project.githubUrl}" class="btn btn-dark btn-sm ms-2">
+                                <i class="fab fa-github me-1"></i>GitHub
+                            </a>
                         </div>
-                    `;
-                    container.insertAdjacentHTML('beforeend', projectHtml);
-                });
-            })
-            .catch(error => {
-                console.error('There was a problem fetching the projects:', error);
-                container.innerHTML = '<p class="text-center text-danger">Failed to load projects. Please try again later.</p>';
-            });
+                    </div>
+                </div>
+            `;
+            container.insertAdjacentHTML('beforeend', projectHtml);
+        });
     });
 </script>
 </body>
