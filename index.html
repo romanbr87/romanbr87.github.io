@@ -1,128 +1,172 @@
 <!DOCTYPE html>
-<html>
-	<head>
-        <meta charset="utf-8" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="generator" content="slidify" />
-        <meta name="google" content="notranslate" />
-        <meta name="robots" content="follow, index" />
-        <link rel="canonical" href="https://romanbr87.github.io/" />
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes" />
+    <title>Roman's Portfolio | Full Stack Developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <meta name="description" content="Roman's portfolio" />
-        <meta name="author" content="https://www.facebook.com/RonenBr60/" />
+    <meta name="robots" content="index, follow, noodp, noydir" />
+    <meta name="googlebot" content="index, follow, noodp, noydir" />
+    <meta name="bingbot" content="index, follow, noodp, noydir" />
+    <meta name="google" content="notranslate" />
+    <meta name="title" content="Roman's Portfolio" />
+    <meta name="application-name" content="Roman's Portfolio" />
+    <meta name="description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta name="keywords" content="Roman, portfolio, full stack, developer, web development, projects, JavaScript, HTML, CSS" />
+    <meta name="author" content="Roman" />
+    <link rel="canonical" href="https://romanbr87.github.io/" />
+    <meta name="application-url" content="https://romanbr87.github.io/" />
+    <link rel="icon" href="https://placehold.co/32x32/667eea/ffffff?text=R" />
+    <link id="favicon" rel="shortcut icon" href="https://placehold.co/32x32/667eea/ffffff?text=R" />
+    <link rel="apple-touch-icon" href="https://placehold.co/180x180/667eea/ffffff?text=R" />
+    <meta itemprop="name" content="Roman's Portfolio" />
+    <meta itemprop="description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta itemprop="image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
+    <meta name="image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
 
-        <meta property="og:description" content="Roman's portfolio" />
-        <meta property="og:url" content="https://romanbr87.github.io/" />
-        <meta property="og:title" content="Portfolio" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Roman on github" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Roman's Portfolio" />
+    <meta property="og:site_name" content="Roman's Portfolio" />
+    <meta property="og:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta property="og:url" content="https://romanbr87.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
+    <meta property="og:image:type" content="image/jpeg" />
 
-		<link rel="shortcut icon" href="http://www.w3.org/Icons/W3C/Beveled-Logo.gif" />
-		<link rel="apple-touch-icon" href="http://www.w3.org/Icons/W3C/Beveled-Logo.gif" />
+    <meta name="twitter:title" content="Roman's Portfolio" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ronenbr60" />
+    <meta name="twitter:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta name="twitter:text:description" content="A portfolio showcasing a collection of full stack development projects by Roman." />
+    <meta name="twitter:image" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
+    <meta name="twitter:image:src" content="https://placehold.co/1200x630/667eea/ffffff?text=Roman's+Portfolio" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-		<title>Roman on github</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .card {
+            border-radius: 1.5rem;
+        }
+        .btn-primary, .btn-outline-primary, .btn-dark {
+            border-radius: 50rem;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .project-item {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+        .project-item:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+        .project-item:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .project-item:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+        .project-item:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+    </style>
+</head>
+<body>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <div class="card border-0 shadow-lg mb-4 fade-in">
+                <div class="card-body p-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-4 fw-bold text-primary mb-3">Roman's Portfolio</h1>
+                        <p class="lead text-muted">Full Stack Developer & Creative Thinker</p>
+                    </div>
+                    <div class="mb-5">
+                        <h2 class="h4 fw-bold mb-4 text-dark">
+                            <i class="fas fa-code me-2 text-primary"></i>My Projects
+                        </h2>
+                        <div class="row g-3" id="projects-container">
+                            </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="h5 fw-bold mb-4 text-dark">Let's Connect</h3>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <a href="mailto:romanbr87@gmail.com" class="btn btn-primary d-flex align-items-center">
+                                <i class="fas fa-envelope me-2"></i>Email
+                            </a>
+                            <a href="https://www.linkedin.com/in/romanbr87/" class="btn btn-primary d-flex align-items-center">
+                                <i class="fab fa-linkedin me-2"></i>LinkedIn
+                            </a>
+                            <a href="https://github.com/Romanbr87/" class="btn btn-primary d-flex align-items-center">
+                                <i class="fab fa-github me-2"></i>GitHub
+                            </a>
+                            <a href="https://www.facebook.com/ronenbr0/" class="btn btn-primary d-flex align-items-center">
+                                <i class="fab fa-facebook me-2"></i>Facebook
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById("projects-container");
 
-		<style type="text/css">
-		* {
-			font-kerning: normal;
-			font-stretch: ultra-expanded;
-			letter-spacing: 1px;
-		}
-	
-		html {
-			background-image: url("http://www.w3.org/Icons/Backgrounds/OldPaper.gif"); 	
-		}
-		
-		#portfolio { 
-			width: 50%; 
-			height: 50%;
-			margin: 5% auto auto auto;
-			padding: 0;
-			border: 1px solid black; 
-			background: white; 
-			border-radius: 10px; 
-			box-shadow: 0 0 10px black; 
-			animation-duration: 3s;
-			animation-name: slidein;
-		}
-		 
-		@keyframes slidein {
-		  from {opacity: 0; margin-top: -35%;}
-		  50% {opacity: 0.5;} 
-		  to  {opacity: 1; }
-		}
-
-		.text {
-			text-shadow: -1px -1px 0 black;
-			color: silver;
-		}
-
-		a {	text-decoration: none; margin: auto; }
-		a { text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;}
-		a:hover { text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: silver;}
-		a, a:hover { transition: color 0.2s; }
-
-		.info > a { margin: auto 5% 2% 5%; }
-		.info { 
-			padding-top: 3%; 
-			padding-bottom: 3%; 
-			background-color:  #f2f2f2; 
-			border-top: 1px solid black;
-			border-radius: 0 0 10px 10px;
-		}
-
-		ul, li { list-style: none; margin: 0; padding: 0; }
-		li ul li { padding: 1% 1%; margin: 0; }
-		
-		#portfolio ul { padding-left: 3%; }
-		
-
-		@media only screen and (max-width: 768px) {
-			#portfolio { 
-				width: 95%; 
-				margin-top: 35%;
-			}
-			
-			li ul li { padding: 2% 1%; margin: 0; }
-			.info > a { 
-				margin: auto 2% 2% 2%; 
-			}	
-			
-			@keyframes slidein {
-			  from {opacity: 0; margin-top: -35%;}
-			  50% {opacity: 0.5;} 
-			  to  {opacity: 1; }
-			}
-
-		}
-
-		</style>
-	</head>
-	<body>
-		<div id="portfolio">
-		
-		<h1 class="text" style = "text-decoration: underline; font-size: 35px; margin: 2% auto auto auto; text-align: center;">Roman on github</h1>
-		<ul>
-			<li class="text" style="font-size: 18px; margin: 5% auto 1% auto" >My projects:</li>
-			<li><ul>
-				<li><a href="https://romanbr87.github.io/sudoku/" title = "Sudoku game">Sudoku game</a></li>
-				<li><a href="https://romanbr87.github.io/whatsapp/" title = "Sending whatapp message to anyone">Whatsapp application</a></li>
-				<li><a href="https://Kishurit.vercel.app/" title = "Catalogue of employment websites in Israel">Catalog of employment websites</a></li>
-				<!-- <li><a href="https://romanbr87.github.io/cv.html" title = "cv">My Resume</a></li> -->
-			</ul></li>
-		</ul>
-		<br/>
-		<div class="info">	
-			<a href="mailto:romanbr87@gmail.com"><em><b>My Email</b></em></a>
-			<a href="https://www.linkedin.com/in/romanbr87/"><em><b>LinkedIn profile</b></em></a>
-			<a href="https://github.com/Romanbr87/"><em><b>Github profile</b></em></a>
-			<a href="https://www.https://www.facebook.com/ronenbr0/"><em><b>Facebook profile</b></em></a>
-		</div>
-
-		</div>
-	</body>
+        fetch('projects.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(projects => {
+                projects.forEach((project, index) => {
+                    const projectHtml = `
+                        <div class="col-12 project-item" style="animation-delay: ${0.1 + (index * 0.1)}s;">
+                            <div class="card border-0 bg-light h-100">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title text-primary">
+                                        <i class="${project.iconClass} me-2"></i>${project.title}
+                                    </h5>
+                                    <p class="card-text text-muted mb-3">${project.description}</p>
+                                    <a href="${project.projectUrl}" class="btn btn-outline-primary btn-sm">
+                                        View Project <i class="fas fa-external-link-alt ms-1"></i>
+                                    </a>
+                                    <a href="${project.githubUrl}" class="btn btn-dark btn-sm ms-2">
+                                        <i class="fab fa-github me-1"></i>GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.insertAdjacentHTML('beforeend', projectHtml);
+                });
+            })
+            .catch(error => {
+                console.error('There was a problem fetching the projects:', error);
+                container.innerHTML = '<p class="text-center text-danger">Failed to load projects. Please try again later.</p>';
+            });
+    });
+</script>
+</body>
 </html>
