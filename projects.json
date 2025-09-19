@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Sudoku Game",
+    "description": "Interactive puzzle game with modern UI",
+    "projectUrl": "https://romanbr87.github.io/sudoku/",
+    "githubUrl": "https://github.com/romanbr87/romanbr87.github.io/tree/main/sudoku",
+    "iconClass": "fas fa-puzzle-piece"
+  },
+  {
+    "title": "WhatsApp Application",
+    "description": "Messaging application clone with modern features",
+    "projectUrl": "https://romanbr87.github.io/whatsapp/",
+    "githubUrl": "https://github.com/romanbr87/romanbr87.github.io/tree/main/whatsapp",
+    "iconClass": "fab fa-whatsapp"
+  },
+  {
+    "title": "Employment Websites Catalog",
+    "description": "Comprehensive directory of job search platforms",
+    "projectUrl": "https://Kishurit.vercel.app/",
+    "githubUrl": "https://github.com/Kishurit",
+    "iconClass": "fas fa-briefcase"
+  },
+  {
+    "title": "Shopping List",
+    "description": "A simple, modern shopping list application.",
+    "projectUrl": "https://shopping-list-beta-eosin.vercel.app/",
+    "githubUrl": "https://github.com/romanbr87/ShoppingList",
+    "iconClass": "fas fa-shopping-cart"
+  }
+]
