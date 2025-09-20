@@ -1,15 +1,20 @@
 {
-  "short_name": "Kishurit",
-  "name": "Kisurit, index of businesses website",
+  "name": "ווטסאפ",
+  "short_name": "ווטסאפ",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#25d366",
   "icons": [
     {
-      "src": "newjob.jpg",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpeg"
+      "src": "https://web.whatsapp.com/img/favicon_c5088e888c97ad440a61d247596f88e5.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://web.whatsapp.com/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
