@@ -7,13 +7,13 @@
   "theme_color": "#25d366",
   "icons": [
     {
-      "src": "https://web.whatsapp.com/img/favicon_c5088e888c97ad440a61d247596f88e5.png",
-      "sizes": "192x192",
+      "src": "https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png",
+      "sizes": "194x194",
       "type": "image/png"
     },
     {
-      "src": "https://web.whatsapp.com/apple-touch-icon.png",
-      "sizes": "512x512",
+      "src": "https://static.whatsapp.net/rsrc.php/v4/yc/r/hUUuVTz6ZVi.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
