@@ -1,105 +1,135 @@
 <!DOCTYPE html>
-<html lang="he" dir="ltr">
-    <head prefix="og: http://ogp.me/ns#">
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0; user-scalable=yes" />
-		<link rel="canonical" href="https://romanbr87.github.io/whatsapp/" />
-		<meta name="application-url" content="https://romanbr87.github.io/whatsapp/" />
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp & Call</title>
+  <meta name="description" content="שליחת הודעת ווטסאפ למספר טלפון">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Varela Round', sans-serif;
+      background-color: #f8f9fa; /* Bootstrap's default body background color */
+      background: linear-gradient(to bottom, #f0f8ff, #e6f7ff); /* A soft blue gradient */
+    }
+  </style>
+</head>
+<body class="text-end">
 
-		
-		<meta name="google-site-verification" content="BWavKzzARLHzpK3Ja3c0PMwFU7v8LwiFryxRVLN4bY0" />
-		<meta name="robots" content="index, follow, max-image-preview:large" />
-		<meta name="googlebot" content="index, follow, max-image-preview:large" />
-		<meta name="bingbot" content="index, follow, max-image-preview:large" />
-		<meta name="generator" content="slidify" />
-		<meta name="google" content="notranslate" />
-		
-		<meta name="title" content="ווטסאפ" />
-		<meta name="application-name" content="ווטסאפ">
-		<meta name="image" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png" />
-		<meta name="description" content="שליחת הודעת ווטסאפ למספר טלפון" />
-		<meta name="keywords" content="ווטסאפ, הודעת ווטסאפ, הודעות ווטסאפ אנונימיות" />
-		<meta name="author" content="https://www.facebook.com/RonenBr60/" />
-		
-		
-		<link id="favicon" rel="shortcut icon" type="image/png" href="https://web.whatsapp.com/img/favicon_c5088e888c97ad440a61d247596f88e5.png" 
-		src="https://web.whatsapp.com/img/favicon_c5088e888c97ad440a61d247596f88e5.png" />
-		<link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png" />
-		
-		<!-- Google Search Engine Tags -->
-		<meta itemprop="name" content="ווטסאפ" />
-		<meta itemprop="description" content="שליחת הודעת ווטסאפ למספר טלפון" />
-		<meta itemprop="image" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png" />
-		
-		<!-- Facebook open graph -->
-		<meta property="og:locale" content="he_IL" />
-		<meta property="og:title" content="ווטסאפ" />
-		<meta property="og:site_name" content="ווטסאפ" />
-		<meta property="og:description" content="שליחת הודעת ווטסאפ למספר טלפון" />
-		<meta property="og:url" content="https://romanbr87.github.io/whatsapp/" />
-		<meta property="og:type" content="website" />		
-		<meta property="og:image" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png" />
-		<meta property=”fb:pages” content="110682567074630" />
-		
-		<!-- Twitter open graph -->
-		<meta name="twitter:title" content="ווטסאפ" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:description" content="שליחת הודעת ווטסאפ למספר טלפון" />
-		<meta name="twitter:text:description" content="שליחת הודעת ווטסאפ למספר טלפון" />
-		<meta name="twitter:image" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png" />
-		<meta name="twitter:image:src" content="https://static.facebook.com/images/whatsapp/www/whatsapp-promo.png" />
-		
-		<title>וואטסאפ</title>	
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-        <script type="text/javascript" src="index.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <div class="d-flex align-items-center justify-content-center min-vh-100 p-3">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-header text-white text-center rounded-top-4" style="background: linear-gradient(to bottom right, #22c55e, #3b82f6);">
+              <h1 class="h5 py-2 fw-bold mb-0">שליחת הודעה בווטסאפ</h1>
+            </div>
+            <div class="card-body p-4" style="background-color: #f9f9f9;">
+              <form>
+                <div class="mb-3">
+                  <label for="phoneNumber" class="form-label fw-semibold text-muted">מספר טלפון לשליחת ההודעה</label>
+                  <div class="input-group" dir="ltr">
+                    <select class="form-select rounded-start-0 text-start" id="countryCode"></select>
+                    <input type="text" class="form-control rounded-end-0 text-start" id="phoneNumber" maxlength="15" placeholder="הקלד מספר טלפון">
+                  </div>
+                </div>
+                <div class="mb-4">
+                  <label for="messageText" class="form-label fw-semibold text-muted">תוכן ההודעה לפני שליחה</label>
+                  <textarea class="form-control" id="messageText" rows="4" placeholder="הקלד הודעה" dir="rtl"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="card-footer bg-light border-0 rounded-bottom-4 d-flex justify-content-around align-items-center p-3">
+              <a id="whatsappBtn" href="#" class="btn btn-success flex-grow-1 mx-1 rounded-pill fw-bold d-flex align-items-center justify-content-center">
+                <i class="fab fa-whatsapp me-2 ms-2"></i>
+                <span>ווטסאפ</span>
+              </a>
+              <a id="callBtn" href="#" class="btn btn-primary flex-grow-1 mx-1 rounded-pill fw-bold d-flex align-items-center justify-content-center">
+                <i class="fas fa-phone me-2 ms-2"></i>
+                <span>התקשר</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		<div class="container">
-			<div class="col-lg-4 col-md-4 col-lg-offset-4 col-md-offset-4 col-xs-12">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h4 id = "title">שליחת הודעה בווטסאפ</h4>
-					</div>
-					
-					<div class="panel-body">
-						<div>
-							<h4 class="heading">מספר טלפון לשליחת ההודעה</h4>
-							<div class = "input-group has-success has-feedback">
-								<input type="text" class="form-control input-sm" id="country_code" maxlength = "7" value="+972" placeholder="קידומת מדינה" />
-								<input type="text" class="form-control input-sm" id="number" placeholder="הקלד מספר" maxlength = "15" />
-							</div>
-						</div>
-						<div class = "has-success has-feedback">
-							<h4 class="heading">שם משתמש של סקייפ</h4>
-							<input type="text" class="form-control input-sm" id="userName" placeholder="שם משתמש" />
-						</div>
-						<div>
-							<h4 class="heading">תוכן ההודעה לפני שליחה</h4>
-							<textarea id="txt" placeholder="הקלד הודעה"></textarea>
-						</div>
-					</div>
-					<div class="panel-footer">						
-						<div class = "has-success has-feedback">
-							<a type="button" class="btn btn-primary btn-sm" onclick="useWhatsapp()" role = "button">פתח הודעת ווטסאפ</a>
-							<a type="button" class="btn btn-primary btn-sm" onclick="useTel('tel')" role = "button">להתקשר למספר</a>
-						</div>
-						<div class = "has-success has-feedback">
-							<a type="button" class="btn btn-primary btn-sm" onclick="useTel('skype2');" role = "button">שיחת סקייפ</a>
-							<a type="button" class="btn btn-primary btn-sm" onclick="useTel('skype1');" role = "button">שיחת טלפון בסקייפ</a>
-						</div>
-						<div class = "has-success has-feedback">
-							<a type="button" class="btn btn-primary btn-sm" onclick="useTel('skype3');" role = "button">התכתבות בסקייפ</a>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</body>
-</html> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const countryCodeSelect = document.getElementById('countryCode');
+      const whatsappBtn = document.getElementById('whatsappBtn');
+      const callBtn = document.getElementById('callBtn');
+      const phoneNumberInput = document.getElementById('phoneNumber');
+      const messageTextarea = document.getElementById('messageText');
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+
+      fetch('https://restcountries.com/v3.1/all?fields=name,cca2,idd')
+        .then(response => response.json())
+        .then(data => {
+          const countries = data.map(country => {
+            const countryName = country.name.common;
+            const countryCode = country.idd.root + (country.idd.suffixes ? country.idd.suffixes[0] : '');
+            return {
+              name: countryName,
+              code: countryCode
+            };
+          }).sort((a, b) => a.name.localeCompare(b.name));
+
+          countries.forEach(country => {
+            const option = document.createElement('option');
+            option.value = country.code;
+            option.textContent = `(${country.code}) ${country.name}`;
+            countryCodeSelect.appendChild(option);
+          });
+
+          // Set Israel as the default
+          countryCodeSelect.value = '+972';
+        })
+        .catch(error => {
+          console.error('Error fetching country codes:', error);
+          const defaultOption = document.createElement('option');
+          defaultOption.value = '+972';
+          defaultOption.textContent = '(+972) Israel';
+          countryCodeSelect.appendChild(defaultOption);
+        });
+
+      function getCleanNumber() {
+        const countryCode = countryCodeSelect.value.replace(/\D/g, '');
+        const number = phoneNumberInput.value.replace(/\D/g, '');
+        if (number.trim() === '') {
+          return '';
+        }
+        return `${countryCode}${number}`;
+      }
+
+      whatsappBtn.addEventListener('click', (e) => {
+        const fullNumber = getCleanNumber();
+        const message = encodeURIComponent(messageTextarea.value);
+        if (fullNumber) {
+          const url = `https://wa.me/${fullNumber}?text=${message}`;
+          window.open(url, '_blank');
+        } else {
+          e.preventDefault();
+        }
+      });
+
+      callBtn.addEventListener('click', (e) => {
+        const fullNumber = getCleanNumber();
+        if (fullNumber) {
+          const url = `tel:${fullNumber}`;
+          window.location.href = url;
+        } else {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
