@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מדישופ - רשת פארם, ביוטי וקוסמטיקה המובילה | מבצעים חמים</title>
+    <meta name="description"
+        content="מדישופ: קוסמטיקה, פארם, תוספי תזונה, בישום ומוצרי תינוקות במחירים הטובים ביותר. מגוון ענק ומבצעי 1+1. בואו לבקר בסניף מרכז העיר.">
+    <meta name="keywords"
+        content="מדישופ, סופר פארם, קוסמטיקה, פארם, ביוטי, בשמים, מוצרי תינוקות, ויטמינים, מבצעים, חנות בריאות, 1+1">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-teal': '#047857', // Deep Teal/Green - for health and reliability
+                        'secondary-pink': '#EC4899', // Vibrant Pink - for cosmetics/beauty accent
+                        'soft-gray': '#f9fafb', // Very Light Background
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJ8v4RnF5dC7p5bS6aC97v38+5B2pB3h3h5e1Wf2G5D5s7O+Wj5c2E5u+o6aF5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* CSS מותאם אישית מינימלי עבור RTL וגלילה חלקה */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* מבטיח כיווניות ימין-לשמאל כללית */
+        body {
+            direction: rtl;
+            text-align: right;
+            /* ברירת מחדל ליישור לימין */
+        }
+
+        /* הופך את כיוון ה-flex לשורה הפוכה (כדי ש-start יהיה מימין) */
+        .rtl-flex-row {
+            flex-direction: row-reverse;
+        }
+
+        /* רקע חיצוני למודאל - כמעט שקוף כדי לא לכסות את כל המסך, אבל מאפשר לחיצה בחוץ */
+        .chat-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.01);
+            /* כמעט בלתי נראה */
+            z-index: 999;
+            /* מתחת ל-z-index של המודאל עצמו (1000) */
+            pointer-events: none;
+            /* מאפשר לחיצות על אלמנטים מאחור */
+            transition: opacity 0.3s ease;
+        }
+
+        .chat-overlay.active {
+            pointer-events: auto;
+            /* מאפשר לחיצה על האוברליי כדי לסגור */
+            background-color: rgba(0, 0, 0, 0.1);
+            /* מעט יותר כהה כשפתוח */
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-soft-gray text-gray-800">
+
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex rtl-flex-row justify-between items-center">
+            <a href="#home" class="flex rtl-flex-row items-center space-x-1 sm:space-x-2 space-x-reverse">
+                <svg class="w-7 h-7 sm:w-8 sm:h-8 text-secondary-pink" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+                <span class="text-xl sm:text-2xl font-extrabold text-primary-teal">מדי<span
+                        class="text-secondary-pink">שופ</span></span>
+            </a>
+
+            <nav class="hidden md:flex space-x-6 space-x-reverse">
+                <a href="#home"
+                    class="text-gray-600 hover:text-primary-teal transition duration-150 font-medium">ראשי</a>
+                <a href="#features"
+                    class="text-gray-600 hover:text-primary-teal transition duration-150 font-medium">הטבות</a>
+                <a href="#products"
+                    class="text-gray-600 hover:text-primary-teal transition duration-150 font-medium">קטגוריות</a>
+                <a href="#details"
+                    class="text-gray-600 hover:text-primary-teal transition duration-150 font-medium">אודות</a>
+                <a href="#contact" class="text-gray-600 hover:text-primary-teal transition duration-150 font-medium">צור
+                    קשר</a>
+            </nav>
+
+            <button class="md:hidden text-primary-teal focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="bg-white pt-12 pb-20 md:pt-24 md:pb-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                    <div class="lg:col-span-6 space-y-4 lg:space-y-6 lg:order-2 text-right">
+                        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-snug text-gray-900">
+                            כל מה שאתה צריך, <span class="text-secondary-pink">במחירים שאוהבים.</span>
+                        </h1>
+                        <p class="text-lg sm:text-xl text-gray-500 max-w-lg">
+                            מגוון עצום של מוצרי ביוטי, קוסמטיקה, פארם ותינוקות. מבצעים שלא נגמרים ושירות אישי ומחויב.
+                        </p>
+                        <div
+                            class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 sm:space-x-reverse pt-4">
+                            <a href="#products"
+                                class="inline-flex justify-center items-center py-3 px-6 sm:px-8 text-base sm:text-lg font-semibold rounded-xl text-white bg-secondary-pink shadow-xl hover:bg-pink-700 transition duration-300 transform hover:scale-[1.02]">
+                                לקטלוג המלא
+                            </a>
+                            <a href="#features"
+                                class="inline-flex justify-center items-center py-3 px-6 sm:px-8 text-base sm:text-lg font-semibold rounded-xl text-primary-teal border-2 border-primary-teal bg-white hover:bg-primary-teal/10 transition duration-300">
+                                מבצעים יומיים
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-6 mt-10 lg:mt-0 lg:order-1">
+                        <img src="https://placehold.co/800x600/EC4899/ffffff?text=מגוון+קוסמטיקה+ופארם"
+                            alt="מדף מלא של מוצרי איפור, ביוטי ופארם בתוך חנות קמעונאית."
+                            class="w-full h-auto object-cover rounded-3xl shadow-2xl transition duration-500 ease-in-out transform hover:scale-[1.01]"
+                            onerror="this.onerror=null;this.src='https://placehold.co/800x600/EC4899/ffffff?text=מדישופ'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-16 md:py-20 bg-primary-teal/5">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">למה לבחור במדישופ?</h2>
+                    <p class="mt-3 text-lg text-gray-600">היתרונות הקמעונאיים שהופכים את הקנייה לחוויה משתלמת ומהנה.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                    <div
+                        class="bg-white p-6 md:p-8 rounded-2xl shadow-xl transition duration-300 hover:shadow-2xl border-t-4 border-secondary-pink text-right">
+                        <div
+                            class="flex rtl-flex-row items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-secondary-pink/10 mb-4">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-secondary-pink" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 7h.01M7 3h.01M7 21h.01M17 3h.01M17 21h.01M3 7v10a4 4 0 004 4h10a4 4 0 004-4V7a4 4 0 00-4-4H7a4 4 0 00-4 4z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-2 text-gray-900">מבצעים מתחלפים</h3>
+                        <p class="text-gray-600 text-sm md:text-base">מבצעי 1+1, הנחות עומק ומחירים חסרי תקדים על כל
+                            מותגי היופי והפארם המובילים.</p>
+                    </div>
+
+                    <div
+                        class="bg-white p-6 md:p-8 rounded-2xl shadow-xl transition duration-300 hover:shadow-2xl border-t-4 border-primary-teal text-right">
+                        <div
+                            class="flex rtl-flex-row items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary-teal/10 mb-4">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-primary-teal" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-2 text-gray-900">המגוון הגדול בישראל</h3>
+                        <p class="text-gray-600 text-sm md:text-base">אלפי מוצרים מכל הקטגוריות: קוסמטיקה, תוספי תזונה,
+                            טבע, תינוקות ועוד.</p>
+                    </div>
+
+                    <div
+                        class="bg-white p-6 md:p-8 rounded-2xl shadow-xl transition duration-300 hover:shadow-2xl border-t-4 border-secondary-pink text-right">
+                        <div
+                            class="flex rtl-flex-row items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-secondary-pink/10 mb-4">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-secondary-pink" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-2 text-gray-900">מועדון לקוחות VIP</h3>
+                        <p class="text-gray-600 text-sm md:text-base">הצטרפו למועדון וקבלו הטבות יום הולדת, הנחות קבועות
+                            וצבירת נקודות בכל קנייה.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="details" class="py-16 md:py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-start">
+                    <div class="space-y-6 md:space-y-8 mb-10 lg:mb-0 text-right">
+                        <h2 class="text-3xl sm:text-4xl font-bold text-primary-teal mb-4">אודות מדישופ ופרטי סניף</h2>
+                        <p class="text-base sm:text-lg text-gray-600">מדישופ היא רשת הקוסמטיקה והפארם המובילה באזור,
+                            המציעה את כל המותגים הבינלאומיים והמקומיים תחת קורת גג אחת. אנו מחוייבים לאיכות, שירות
+                            וחווית קנייה משתלמת.</p>
+
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-semibold mb-3 text-gray-900">צרו איתנו קשר</h3>
+                            <ul class="space-y-1 text-gray-600 text-base">
+                                <li>
+                                    <span>טלפון: <a href="tel:031234567"
+                                            class="hover:text-primary-teal">03-123-4567</a></span>
+                                </li>
+                                <li>
+                                    <span>אימייל: <a href="mailto:info@medishop.co.il"
+                                            class="hover:text-primary-teal">info@medishop.co.il</a></span>
+                                </li>
+                                <li>
+                                    <span>כתובת: רחוב עצמון 1, נוף הגליל (קניון הבריאות, קומה 2)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-semibold mb-3 text-gray-900">שעות פעילות</h3>
+                            <ul class="space-y-1 text-gray-600 text-base">
+                                <li><span class="font-medium">א'-ה':</span> 9:00 - 21:00 (כמו הקניון)</li>
+                                <li><span class="font-medium">ו' (ערב שבת):</span> 9:00 - 15:00</li>
+                                <li><span class="font-medium">מוצ"ש:</span> שעה לאחר יציאת שבת - 22:00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 lg:mt-0">
+                        <h3 class="text-xl sm:text-2xl font-semibold mb-3 text-gray-900 text-right">מיקום שלנו</h3>
+                        <div
+                            class="bg-gray-200 h-64 md:h-80 rounded-2xl overflow-hidden shadow-xl border border-gray-300">
+                            <iframe
+                                src="https://maps.google.com/maps?q=עצמון%201,%20נוף%20הגליל&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="מפת מיקום: עצמון 1, נוף הגליל"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="py-16 md:py-20 bg-soft-gray">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 md:mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">המחלקות המובילות בחנות</h2>
+                    <p class="mt-3 text-lg text-gray-600">מוצרי ביוטי, קוסמטיקה, טואלטיקה ופארם מכל המותגים.</p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                    <div
+                        class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 cursor-pointer border-b-4 border-secondary-pink">
+                        <img src="https://placehold.co/400x400/EC4899/ffffff?text=איפור+וביוטי"
+                            alt="מבחר מוצרי איפור כגון מייקאפ, שפתונים וצלליות."
+                            class="w-full h-32 md:h-48 object-cover rounded-lg mb-3"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/EC4899/ffffff?text=ביוטי'">
+                        <h3 class="text-base md:text-lg font-semibold text-gray-900 text-right">איפור וטיפוח</h3>
+                        <p class="text-xs md:text-sm text-gray-500 text-right">כל מותגי הקוסמטיקה המובילים במחירים
+                            מיוחדים.</p>
+                    </div>
+
+                    <div
+                        class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 cursor-pointer border-b-4 border-primary-teal">
+                        <img src="https://placehold.co/400x400/10B981/ffffff?text=בישום"
+                            alt="בקבוקי בושם יוקרתיים לגבר ולאישה במחלקת הבישום."
+                            class="w-full h-32 md:h-48 object-cover rounded-lg mb-3"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/10B981/ffffff?text=בישום'">
+                        <h3 class="text-base md:text-lg font-semibold text-gray-900 text-right">בשמים</h3>
+                        <p class="text-xs md:text-sm text-gray-500 text-right">מגוון בשמים לגבר ולאישה - הנחות ענק.</p>
+                    </div>
+
+                    <div
+                        class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 cursor-pointer border-b-4 border-secondary-pink">
+                        <img src="https://placehold.co/400x400/059669/ffffff?text=תינוקות"
+                            alt="חבילת חיתולים ומוצרי טיפוח לתינוקות כמו קרמים ושמפו."
+                            class="w-full h-32 md:h-48 object-cover rounded-lg mb-3"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/059669/ffffff?text=תינוקות'">
+                        <h3 class="text-base md:text-lg font-semibold text-gray-900 text-right">תינוקות וילדים</h3>
+                        <p class="text-xs md:text-sm text-gray-500 text-right">חיתולים, פורמולות ומוצרי טיפוח מיוחדים.
+                        </p>
+                    </div>
+
+                    <div
+                        class="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition duration-300 cursor-pointer border-b-4 border-primary-teal">
+                        <img src="https://placehold.co/400x400/34D399/ffffff?text=תוספי+תזונה"
+                            alt="בקבוקי ויטמינים ותוספי תזונה טבעיים לחיזוק הגוף."
+                            class="w-full h-32 md:h-48 object-cover rounded-lg mb-3"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/34D399/ffffff?text=תוספי+תזונה'">
+                        <h3 class="text-base md:text-lg font-semibold text-gray-900 text-right">תוספי תזונה</h3>
+                        <p class="text-xs md:text-sm text-gray-500 text-right">ויטמינים, מינרלים ומוצרי טבע מובילים.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-primary-teal py-12 md:py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-2xl sm:text-4xl font-extrabold text-white">לא לפספס: מבצע 1+1 על כל מוצרי הבישום!</h2>
+                <p class="mt-3 text-base sm:text-xl text-white/80 max-w-2xl mx-auto">תוקף המבצע מסתיים בסוף השבוע.
+                    הזדרזו ובקרו אותנו בסניף!</p>
+                <a href="#details"
+                    class="mt-6 sm:mt-8 inline-block bg-secondary-pink text-white py-3 px-8 sm:px-10 rounded-xl text-base sm:text-lg font-semibold shadow-2xl hover:bg-pink-700 transition duration-300 transform hover:scale-105">
+                    לניווט לסניף
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <button id="floatingButton" onclick="openMessageModal()"
+        class="fixed bottom-4 left-4 z-40 bg-secondary-pink text-white p-3 rounded-full shadow-2xl hover:bg-pink-700 transition duration-300 transform hover:scale-105 flex items-center justify-center text-sm font-bold md:p-4 md:text-base space-x-2 space-x-reverse">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z">
+            </path>
+        </svg>
+        <span class="hidden sm:inline">שלח הודעה לעסק</span>
+    </button>
+
+    <div id="chatOverlay" class="chat-overlay hidden"></div>
+
+    <div id="messageModal" class="fixed bottom-20 left-4 z-[1000] hidden">
+        <div id="modalContent"
+            class="bg-white p-5 rounded-xl shadow-2xl w-full max-w-xs sm:max-w-sm relative transform transition-all duration-300 scale-95 opacity-0 origin-bottom-left">
+            <button onclick="closeMessageModal()"
+                class="absolute top-3 left-3 text-gray-400 hover:text-gray-800 transition duration-150">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+
+            <h3 class="text-xl font-bold mb-4 text-primary-teal text-right">שלחו הודעה</h3>
+            <p class="text-gray-600 text-sm mb-4 text-right">נחזור אליכם בהקדם האפשרי.</p>
+
+            <form onsubmit="handleFormSubmission(event)" id="contactForm" class="space-y-3">
+                <div>
+                    <label for="name" class="block text-xs font-medium text-gray-700 mb-1">שם מלא (לא חובה)</label>
+                    <input type="text" id="name" name="name"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-primary-teal focus:border-primary-teal transition duration-150 text-right"
+                        placeholder="שם">
+                </div>
+
+                <div>
+                    <label for="email" class="block text-xs font-medium text-gray-700 mb-1">אימייל *</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-primary-teal focus:border-primary-teal transition duration-150 text-right"
+                        placeholder="you@example.com">
+                </div>
+
+                <div>
+                    <label for="phone" class="block text-xs font-medium text-gray-700 mb-1">טלפון *</label>
+                    <input type="tel" id="phone" name="phone" required
+                        class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-primary-teal focus:border-primary-teal transition duration-150 text-right"
+                        placeholder="05X-XXXXXXX">
+                </div>
+
+                <div>
+                    <label for="message" class="block text-xs font-medium text-gray-700 mb-1">הודעה *</label>
+                    <textarea id="message" name="message" rows="3" required
+                        class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-primary-teal focus:border-primary-teal transition duration-150 resize-none text-right"
+                        placeholder="שאלה / בקשה..."></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-secondary-pink text-white py-2 rounded-lg font-semibold text-sm hover:bg-pink-700 transition duration-300 shadow-md">
+                    שלח
+                </button>
+            </form>
+
+            <div id="successMessage"
+                class="hidden text-center mt-4 p-3 bg-primary-teal/10 border border-primary-teal text-primary-teal rounded-lg">
+                <p class="font-bold text-sm">✅ תודה! נחזור אליכם.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact" class="bg-gray-900 text-white pt-12 pb-8 md:pt-16 md:pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-right">
+                <div class="col-span-2 md:col-span-1">
+                    <div class="flex rtl-flex-row items-center space-x-1 sm:space-x-2 space-x-reverse mb-3">
+                        <svg class="w-7 h-7 text-secondary-pink" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 4v16m8-8H4m8-12a8 8 0 100 16 8 8 0 000-16z"></path>
+                        </svg>
+                        <span class="text-xl sm:text-2xl font-extrabold text-white">מדי<span
+                                class="text-secondary-pink">שופ</span></span>
+                    </div>
+                    <p class="text-gray-400 text-xs sm:text-sm">חנות הפארם המושלמת לכל המשפחה.</p>
+
+                    <div class="flex rtl-flex-row space-x-3 space-x-reverse mt-4">
+                        <a href="https://www.facebook.com/medishop" target="_blank" aria-label="פייסבוק"
+                            class="text-gray-400 hover:text-secondary-pink transition duration-150">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                        <a href="https://www.instagram.com/medishop" target="_blank" aria-label="אינסטגרם"
+                            class="text-gray-400 hover:text-secondary-pink transition duration-150">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a href="https://wa.me/97231234567" target="_blank" aria-label="וואטסאפ"
+                            class="text-gray-400 hover:text-secondary-pink transition duration-150">
+                            <i class="fab fa-whatsapp fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-base sm:text-lg font-semibold mb-3 text-secondary-pink">מחלקות ראשיות</h4>
+                    <ul class="space-y-1 sm:space-y-2 text-xs sm:text-sm">
+                        <li><a href="#products" class="text-gray-400 hover:text-white transition duration-150">איפור
+                                וביוטי</a></li>
+                        <li><a href="#products" class="text-gray-400 hover:text-white transition duration-150">מוצרי
+                                תינוקות</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition duration-150">מועדון
+                                והטבות</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-base sm:text-lg font-semibold mb-3 text-secondary-pink">שירות לקוחות</h4>
+                    <address class="space-y-1 sm:space-y-2 not-italic text-xs sm:text-sm">
+                        <p class="text-gray-400">רחוב עצמון 1, נוף הגליל</p>
+                        <p><a href="tel:031234567"
+                                class="text-gray-400 hover:text-white transition duration-150">03-123-4567</a></p>
+                        <p><a href="mailto:info@medishop.co.il"
+                                class="text-gray-400 hover:text-white transition duration-150">info@medishop.co.il</a>
+                        </p>
+                    </address>
+                </div>
+
+                <div>
+                    <h4 class="text-base sm:text-lg font-semibold mb-3 text-secondary-pink">שעות פעילות</h4>
+                    <ul class="space-y-1 text-xs sm:text-sm text-gray-400">
+                        <li>א' - ה': 9:00 - 21:00</li>
+                        <li>ו': 9:00 - 15:00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-4 md:pt-8 text-center">
+                <p class="text-xs sm:text-sm text-gray-500">© 2025 מדישופ. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const modal = document.getElementById('messageModal');
+        const modalContent = document.getElementById('modalContent');
+        const form = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+        const chatOverlay = document.getElementById('chatOverlay');
+
+        /**
+         * Opens the contact modal (chat widget style).
+         */
+        function openMessageModal() {
+            // 1. Show the overlay and activate click outside
+            chatOverlay.classList.remove('hidden');
+            chatOverlay.classList.add('active');
+
+            // 2. Show the modal container
+            modal.classList.remove('hidden');
+
+            // 3. Timeout ensures Tailwind transition classes work after 'display' changes
+            setTimeout(() => {
+                modalContent.classList.remove('opacity-0', 'scale-95');
+                modalContent.classList.add('opacity-100', 'scale-100');
+            }, 10);
+        }
+
+        /**
+         * Closes the contact modal.
+         */
+        function closeMessageModal() {
+            // 1. Start closing animation
+            modalContent.classList.remove('opacity-100', 'scale-100');
+            modalContent.classList.add('opacity-0', 'scale-95');
+
+            // 2. Hide the modal completely after the animation finishes (300ms)
+            setTimeout(() => {
+                modal.classList.add('hidden'); // Add 'hidden' to set display: none
+                chatOverlay.classList.add('hidden');
+                chatOverlay.classList.remove('active');
+
+                // Reset form and message state
+                form.reset();
+                form.classList.remove('hidden');
+                successMessage.classList.add('hidden');
+            }, 300);
+        }
+
+        /**
+         * Handles the form submission (simulated).
+         */
+        function handleFormSubmission(event) {
+            event.preventDefault(); // Prevent actual form submission
+
+            // In a real app, this sends data to a server
+
+            // 1. Hide the form
+            form.classList.add('hidden');
+
+            // 2. Show the success message
+            successMessage.classList.remove('hidden');
+
+            // Close the modal automatically after 4 seconds
+            setTimeout(() => {
+                closeMessageModal();
+            }, 4000);
+        }
+
+        // Close modal when clicking outside the content area (using the overlay)
+        chatOverlay.addEventListener('click', (e) => {
+            if (e.target === chatOverlay) {
+                closeMessageModal();
+            }
+        });
+    </script>
+</body>
+
+</html>
