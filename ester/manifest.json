@@ -1,0 +1,18 @@
+{
+  "short_name": "אסתר",
+  "name": "אסתר - סטאז' עיסוי שוודי ורפואה משלימה",
+  "icons": [
+    {
+      "src": "/d4722e62-05df-4686-9b6f-5f004945bf12.jpeg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/"
+}
