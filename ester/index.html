@@ -7,7 +7,7 @@
     <meta name="description"
         content="מעסה שוודית מוסמכת וסטודנטית לרפואה משלימה במכללת רידמן. מזמינה אתכן לטיפול מקצועי ומעמיק עם מגע מרגיע ומפיג מתחים. צרו קשר לתיאום תור." />
     <meta name="keywords"
-        content="עיסוי שוודי, רפואה משלימה, מכללת רידמן, עיסוי ללא עלות, סטאז' עיסוי, עיסוי בנתניה, עיסוי בתל אביב, סטאז'ר רפואה משלימה, עיסוי לנשים, טיפול במגע" />
+        content="עיסוי, מסאז', עיסוי שוודי, רפואה משלימה, מכללת רידמן, עיסוי בנתניה, מסאז' בנתניה, נתניה, עיסוי לנשים, עיסוי לנשים בלבד, מסאז' לנשים, מסאז' לשנים בלבד" />
     <meta name="author" content="Ester Abramov" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -25,7 +25,7 @@
 
     <!-- {/* Open Graph Tags (for Facebook, WhatsApp, etc.) */} -->
     <meta property="og:title" content="אצל אסתר — עיסוי שוודי מקצועי" />
-    <meta property="og:description" content="מעסה שוודית מוסמכת. טיפול מקצועי, מרגיע ומפיג מתחים. צרו קשר לתיאום." />
+    <meta property="og:description" content="מעסה שוודית מוסמכת. טיפול מקצועי, מרגיע ומפיג מתחים. צרו קשר לתיאום" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://romanbr87.github.io/ester/" />
     <meta property="og:site_name" content="אסתר" />
@@ -315,34 +315,6 @@
             background-color: var(--bg) !important;
         }
 
-        @keyframes fadeUp {
-            from {
-                opacity: 0;
-                transform: translateY(28px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .fade-up {
-            animation: fadeUp .65s ease both;
-        }
-
-        .delay-1 {
-            animation-delay: .1s;
-        }
-
-        .delay-2 {
-            animation-delay: .22s;
-        }
-
-        .delay-3 {
-            animation-delay: .36s;
-        }
-
         @media (max-width: 575px) {
             .profile-float {
                 max-width: 280px;
@@ -355,15 +327,15 @@
 
     <header class="hero text-center position-relative overflow-hidden">
         <div class="container px-4 position-relative z-1">
-            <h1 class="fade-up delay-1 text-white fw-bold mb-2">אסתר</h1>
-            <p class="hero-sub fade-up delay-2 fs-5 fw-light text-white text-opacity-75 m-0"
-                style="letter-spacing: .04em;">עיסוי שוודי &amp; רפואה משלימה</p>
+            <h1 class="text-white fw-bold mb-2">אסתר</h1>
+            <p class="hero-sub fs-5 fw-light text-white text-opacity-75 m-0" style="letter-spacing: .04em;">עיסוי שוודי
+            </p>
         </div>
     </header>
 
     <main class="container mb-4 px-3 px-sm-0" style="max-width:720px;">
 
-        <div class="profile-float fade-up delay-3 mx-auto px-3 position-relative z-3">
+        <div class="profile-float mx-auto px-3 position-relative z-3">
             <div class="profile-wrap position-relative overflow-hidden">
                 <picture>
                     <img src="bg.jpeg" alt="אסתר - עיסוי שוודי מקצועי בנתניה"
@@ -385,7 +357,7 @@
                 </div>
                 <h2 class="section-title fw-bold mb-3">נעים מאוד, אני אסתר 👋</h2>
                 <p class="text-muted-custom fs-5 lh-lg max-width-560 mx-auto mb-4" style="max-width: 560px;">
-                    סטודנטית לרפואה משלימה ומעסה מוסמכת. מזמינה אתכם לחוויית עיסוי שוודי קלאסי,
+                    סטודנטית לרפואה משלימה ומעסה מוסמכת. מזמינה אתכן לחוויית עיסוי שוודי קלאסי,
                     המשלבת ידע מעמיק עם טכניקות להזרמת הדם, שחרור שרירים תפוסים והפגת מתחים פיזיים ונפשיים.
                 </p>
                 <div class="quote-block p-4 mx-auto text-start" style="max-width: 560px;">
@@ -513,22 +485,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
-
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(e => {
-                if (e.isIntersecting) {
-                    e.target.style.opacity = '1';
-                    e.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { threshold: 0.15 });
-
-        document.querySelectorAll('.price-card-new, .location-card').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(24px)';
-            el.style.transition = 'opacity .6s ease, transform .6s ease';
-            observer.observe(el);
-        });
     </script>
 </body>
 
