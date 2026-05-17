@@ -9,10 +9,10 @@
       "purpose": "any"
     }
   ],
-  "start_url": "https://romanbr87.github.io/ester/",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#ffffff", 
   "background_color": "#ffffff",
   "orientation": "portrait",
-  "scope": "/ester/"
+  "scope": "/"
 }
