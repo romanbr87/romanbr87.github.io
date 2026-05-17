@@ -4,15 +4,15 @@
   "icons": [
     {
       "src": "/bg.jpeg",
-      "sizes": "1200x1600",
+      "sizes": "1277x1231",
       "type": "image/jpeg",
       "purpose": "any"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://romanbr87.github.io/ester/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "orientation": "portrait",
-  "scope": "/"
+  "scope": "/ester/"
 }
