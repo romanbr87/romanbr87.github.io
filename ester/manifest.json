@@ -9,10 +9,10 @@
       "purpose": "any"
     }
   ],
-  "start_url": "/",
+  "start_url": "/ester/",
   "display": "standalone",
   "theme_color": "#ffffff", 
   "background_color": "#ffffff",
   "orientation": "portrait",
-  "scope": "/"
+  "scope": "/ester/"
 }
