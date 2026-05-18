@@ -11,19 +11,15 @@
     <meta name="author" content="Ester Abramov" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <!-- <meta name="google-site-verification" content="INZ1lPlJ4uJihxsPJiYcnm62efEwDySXzWSfo5iZfIQ" /> -->
 
-    <!-- {/* Robots & Crawling */} -->
     <meta name="robots" content="index, follow, noodp, noydir" />
     <meta name="googlebot" content="index, follow, noodp, noydir" />
     <meta name="bingbot" content="index, follow, noodp, noydir" />
     <meta name="google" content="notranslate" />
 
-    <!-- {/* Canonical URL */} -->
     <link rel="canonical" href="https://romanbr87.github.io/ester/" />
     <meta name="application-url" content="https://romanbr87.github.io/ester/" />
 
-    <!-- {/* Open Graph Tags (for Facebook, WhatsApp, etc.) */} -->
     <meta property="og:title" content="אצל אסתר — עיסוי שוודי מקצועי" />
     <meta property="og:description" content="מעסה שוודית מוסמכת. צרו קשר לתיאום טיפולים" />
     <meta property="og:type" content="website" />
@@ -36,29 +32,22 @@
     <meta property="og:image:height" content="1231" />
     <meta property="og:image:alt" content="אסתר - עיסוי שוודי מקצועי" />
 
-
-    <!-- {/* Mobile SEO & PWA */} -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#FFFFFF" />
     <link rel="manifest" href="https://romanbr87.github.io/ester/manifest.json" />
 
-    <!-- {/* Icons & Favicons */} -->
     <link rel="icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
     <link rel="shortcut icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
     <link rel="apple-touch-icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
-    <link id="favicon" rel="shortcut icon" type="image/jpeg" sizes="512x512"
-        href="https://romanbr87.github.io/ester/bg.jpeg" />
 
     <script type="application/ld+json">
-    {`
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "אסתר",
-            "url": "https://romanbr87.github.io/ester/"
-        }
-    `}
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "אסתר",
+        "url": "https://romanbr87.github.io/ester/"
+    }
     </script>
     <script type="application/ld+json">
     {
@@ -75,10 +64,14 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" as="style">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/heebo/v22/NGcH7K6O0Q52kbdfK24_.woff2" type="font/woff2" crossorigin>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
 
     <style>
         :root {
@@ -129,14 +122,6 @@
             height: 80px;
             background: var(--bg);
             clip-path: ellipse(60% 100% at 50% 100%);
-        }
-
-        .hero-orb {
-            position: absolute;
-            border-radius: 50%;
-            opacity: .07;
-            background: var(--gold);
-            pointer-events: none;
         }
 
         .hero h1 {
@@ -298,7 +283,6 @@
             background: rgba(255, 255, 255, .25);
         }
 
-        /* Overrides & Colors using CSS vars dynamically */
         .text-primary-custom {
             color: var(--primary) !important;
         }
@@ -328,8 +312,7 @@
     <header class="hero text-center position-relative overflow-hidden">
         <div class="container px-4 position-relative z-1">
             <h1 class="text-white fw-bold mb-2">אסתר</h1>
-            <p class="hero-sub fs-5 fw-light text-white text-opacity-75 m-0" style="letter-spacing: .04em;">עיסוי שוודי
-            </p>
+            <p class="hero-sub fs-5 fw-light text-white text-opacity-75 m-0" style="letter-spacing: .04em;">עיסוי שוודי</p>
         </div>
     </header>
 
@@ -338,17 +321,18 @@
         <div class="profile-float mx-auto px-3 position-relative z-3">
             <div class="profile-wrap position-relative overflow-hidden">
                 <picture>
+                    <source media="(max-width: 576px)" srcset="bg-mobile.webp" type="image/webp">
+                    <source srcset="bg.webp" type="image/webp">
                     <img src="bg.jpeg" alt="אסתר - עיסוי שוודי מקצועי בנתניה"
-                        class="w-100 h-auto d-block object-fit-cover" width="1277" height="1231" fetchpriority="high"
-                        decoding="async" fetchpriority="high">
+                        class="w-100 h-auto d-block object-fit-cover" width="380" height="366" 
+                        fetchpriority="high" decoding="async">
                 </picture>
             </div>
         </div>
 
         <div class="main-card overflow-hidden mt-4">
 
-            <section class="p-4 p-sm-5 text-center border-bottom border-secondary border-opacity-10"
-                aria-label="קצת עלי">
+            <section class="p-4 p-sm-5 text-center border-bottom border-secondary border-opacity-10" aria-label="קצת עלי">
                 <div class="section-label d-inline-flex align-items-center gap-2 fw-bold text-uppercase mb-2">
                     <span>על אסתר</span>
                 </div>
@@ -375,13 +359,11 @@
                 <div class="row g-3 g-md-4 justify-content-center">
                     <div class="col-6 col-md-5">
                         <div class="price-card-new h-100 p-4 text-center position-relative overflow-hidden">
-                            <div
-                                class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3">
+                            <div class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3">
                                 <i class="far fa-clock text-accent-custom fs-5" aria-hidden="true"></i>
                             </div>
                             <div class="fw-bold fs-5 mb-1 text-dark">עיסוי 60 דקות</div>
-                            <div class="text-muted-custom small mb-3" style="min-height: 2em;">טיפול מלא ומעמיק לכל הגוף
-                            </div>
+                            <div class="text-muted-custom small mb-3" style="min-height: 2em;">טיפול מלא ומעמיק לכל הגוף</div>
                             <div class="price-amount text-primary-custom fw-bolder fs-1 lh-1">
                                 <span class="fs-4 fw-normal">₪</span>200
                             </div>
@@ -389,8 +371,7 @@
                     </div>
                     <div class="col-6 col-md-5">
                         <div class="price-card-new h-100 p-4 text-center position-relative overflow-hidden">
-                            <div
-                                class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3">
+                            <div class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3">
                                 <i class="far fa-clock text-accent-custom fs-5" aria-hidden="true"></i>
                             </div>
                             <div class="fw-bold fs-5 mb-1 text-dark">עיסוי 45 דקות</div>
@@ -414,36 +395,28 @@
                     <div class="col-md-10">
                         <div class="location-card overflow-hidden">
                             <div class="row g-0">
-                                <div
-                                    class="col-sm-3 location-icon-col d-flex flex-column align-items-center justify-content-center gap-2 p-4 text-center">
+                                <div class="col-sm-3 location-icon-col d-flex flex-column align-items-center justify-content-center gap-2 p-4 text-center">
                                     <i class="fas fa-house text-white text-opacity-90 fs-2" aria-hidden="true"></i>
-                                    <span class="text-white text-opacity-75 small fw-bold text-uppercase"
-                                        style="letter-spacing: .1em;">קליניקה</span>
+                                    <span class="text-white text-opacity-75 small fw-bold text-uppercase" style="letter-spacing: .1em;">קליניקה</span>
                                 </div>
-                                <div class="col-sm-9  text-center">
+                                <div class="col-sm-9 text-center">
                                     <div class="p-4">
                                         <div class="d-flex align-items-center gap-2 mb-2 flex-wrap">
                                             <h4 class="location-city fw-bold fs-3 m-0">נתניה</h4>
-                                            <span class="location-badge text-white small fw-bold rounded-pill px-3 py-1"
-                                                style="letter-spacing: .06em;">בתיאום מראש</span>
-                                            <span class="location-badge text-white small fw-bold rounded-pill px-3 py-1"
-                                                style="letter-spacing: .06em;">לנשים בלבד</span>
+                                            <span class="location-badge text-white small fw-bold rounded-pill px-3 py-1" style="letter-spacing: .06em;">בתיאום מראש</span>
+                                            <span class="location-badge text-white small fw-bold rounded-pill px-3 py-1" style="letter-spacing: .06em;">לנשים בלבד</span>
                                         </div>
                                         <p class="text-muted-custom small mb-3 d-flex align-items-center gap-2">
                                             <i class="fas fa-info-circle" aria-hidden="true"></i>
                                             קליניקה ביתית נעימה ושקטה
                                         </p>
                                         <div class="d-flex flex-wrap gap-2">
-                                            <div
-                                                class="meta-chip rounded-pill px-3 py-2 small text-dark d-flex align-items-center gap-2">
-                                                <i class="far fa-calendar-days text-primary-custom small"
-                                                    aria-hidden="true"></i>
+                                            <div class="meta-chip rounded-pill px-3 py-2 small text-dark d-flex align-items-center gap-2">
+                                                <i class="far fa-calendar-days text-primary-custom small" aria-hidden="true"></i>
                                                 <span>ימים א' - ה'</span>
                                             </div>
-                                            <div
-                                                class="meta-chip rounded-pill px-3 py-2 small text-dark d-flex align-items-center gap-2">
-                                                <i class="far fa-clock text-primary-custom small"
-                                                    aria-hidden="true"></i>
+                                            <div class="meta-chip rounded-pill px-3 py-2 small text-dark d-flex align-items-center gap-2">
+                                                <i class="far fa-clock text-primary-custom small" aria-hidden="true"></i>
                                                 <span>שעות הערב</span>
                                             </div>
                                         </div>
@@ -455,10 +428,8 @@
                 </div>
             </section>
 
-            <section class="contact-section p-4 p-sm-5 text-center position-relative overflow-hidden"
-                aria-label="יצירת קשר לתיאום תור">
-                <h3 class="fw-bold text-white fs-3 mb-2" style="font-family: 'Frank Ruhl Libre', serif;">מוכנה להתחיל?
-                </h3>
+            <section class="contact-section p-4 p-sm-5 text-center position-relative overflow-hidden" aria-label="יצירת קשר לתיאום תור">
+                <h3 class="fw-bold text-white fs-3 mb-2" style="font-family: 'Frank Ruhl Libre', serif;">מוכנה להתחיל?</h3>
                 <p class="text-white text-opacity-75 small mb-4">לתיאום טיפול ופרטים נוספים צרי קשר עכשיו</p>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
                     <a href="https://wa.me/972542579912?text=%D7%94%D7%99%D7%99%20%D7%90%D7%A1%D7%AA%D7%A8,%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%A7%D7%91%D7%95%D7%A2%20%D7%AA%D7%95%D7%A8%20%D7%9C%D7%A2%D7%99%D7%A1%D7%95%D7%99"
