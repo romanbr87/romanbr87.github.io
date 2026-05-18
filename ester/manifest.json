@@ -3,9 +3,9 @@
   "name": "אצל אסתר — עיסוי שוודי מקצועי",
   "icons": [
     {
-      "src": "bg.jpeg",
+      "src": "bg.webp",
       "sizes": "1277x1231",
-      "type": "image/jpeg",
+      "type": "image/webp",
       "purpose": "any"
     }
   ],
