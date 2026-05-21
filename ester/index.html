@@ -2,17 +2,24 @@
 <html lang="he" dir="rtl">
 
 <head>
+    <meta charset="utf-8" />
     <title>אצל אסתר — עיסוי שוודי מקצועי</title>
-    <meta charSet="utf-8" />
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <link rel="preload" href="bg.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" as="style">
+
     <meta name="description"
         content="מעסה שוודית מוסמכת וסטודנטית לרפואה משלימה במכללת רידמן. מזמינה אתכן לטיפול מקצועי ומעמיק אצלי בבית עם מגע מרגיע ומפיג מתחים. צרי קשר לתיאום תור." />
     <meta name="keywords"
-        content="עיסוי, מסאז', עיסוי שוודי, רפואה משלימה, מכללת רידמן, עיסוי בנתניה, מסאז' בנתניה, נתניה, עיסוי לנשים, עיסוי לנשים בלבד, מסאז' לנשים, מסאז' לשנים בלבד, עיסוי בבית" />
+        content="עיסוי, מסאז', עיסוי שוודי, מסאז' שוודי, רפואה משלימה, מכללת רידמן, עיסוי בנתניה, מסאז' בנתניה, נתניה, עיסוי לנשים, עיסוי לנשים בלבד, מסאז' לנשים, מסאז' לשנים בלבד, עיסוי בבית, מסאז' בבית" />
     <meta name="author" content="Ester Abramov" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-    <link rel="preload" as="image" href="bg.webp" type="image/webp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <meta name="robots" content="index, follow, noodp, noydir" />
     <meta name="googlebot" content="index, follow, noodp, noydir" />
@@ -41,9 +48,7 @@
 
     <link rel="icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
     <link rel="shortcut icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
-    <link class="apple-touch-icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
-    <link id="favicon" rel="shortcut icon" type="image/jpeg" sizes="512x512"
-        href="https://romanbr87.github.io/ester/bg.jpeg" />
+    <link rel="apple-touch-icon" type="image/jpeg" sizes="512x512" href="https://romanbr87.github.io/ester/bg.jpeg" />
 
     <script type="application/ld+json">
     {
@@ -65,16 +70,9 @@
     }
     </script>
 
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" as="style">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
-
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
@@ -99,6 +97,8 @@
             font-family: 'Heebo', sans-serif;
             background-color: var(--bg);
             color: var(--text);
+            min-height: 100vh;
+            /* Prevents layout shifting during asset loads */
         }
 
         a:focus-visible,
@@ -150,11 +150,15 @@
             font-family: 'Frank Ruhl Libre', serif;
             font-size: clamp(2.5rem, 8vw, 6rem);
             letter-spacing: -.02em;
+            line-height: 1.2;
         }
 
         .profile-float {
+            width: 100%;
             max-width: 250px;
             margin-top: -70px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         @media (min-width: 576px) {
@@ -180,6 +184,22 @@
             position: absolute;
             inset: 0;
             background: linear-gradient(0deg, rgba(74, 59, 92, .35) 0%, transparent 55%);
+        }
+
+        .w-100 {
+            width: 100% !important;
+        }
+
+        .h-auto {
+            height: auto !important;
+        }
+
+        .d-block {
+            display: block !important;
+        }
+
+        .object-fit-cover {
+            object-fit: cover !important;
         }
 
         .main-card {
@@ -356,7 +376,6 @@
             background-color: var(--bg) !important;
         }
 
-        /* התאמת יישור אנכי קל לאייקונים של Bootstrap */
         .bi {
             line-height: 1;
             vertical-align: -.125em;
@@ -378,13 +397,10 @@
 
         <div class="profile-float mx-auto px-3 position-relative z-3">
             <div class="profile-wrap position-relative overflow-hidden">
-                <picture>
-                    <source media="(max-width: 576px)" srcset="bg.webp" type="image/webp">
-                    <source srcset="bg.webp" type="image/webp">
-                    <img src="bg.webp" alt="אסתר - עיסוי שוודי מקצועי בנתניה"
-                        class="w-100 h-auto d-block object-fit-cover" width="380" height="366" fetchpriority="high"
-                        decoding="async" loading="eager">
-                </picture>
+                <img src="bg.webp" srcset="bg.webp 400w, bg.webp 600w, bg.webp 800w"
+                    sizes="(max-width: 576px) 250px, 380px" alt="אסתר - עיסוי שוודי מקצועי בנתניה"
+                    class="w-100 h-auto d-block object-fit-cover" width="380" height="366"
+                    style="aspect-ratio: 380 / 366;" fetchpriority="high" decoding="async" loading="eager" />
             </div>
         </div>
 
@@ -397,14 +413,15 @@
                 </div>
                 <h2 class="section-title fw-bold mb-3">נעים להכיר, אני אסתר 👋</h2>
                 <p class="text-muted-custom fs-5 lh-lg max-width-560 mx-auto mb-4" style="max-width: 560px;">
-                    כסטודנטית לרפואה משלימה ומעסה שוודית מוסמכת, אני מאמינה שלגוף שלך מגיע הטוב ביותר. אני מזמינה אותך אליי הביתה לחוויית
-                    עיסוי שוודי קלאסי ומעמיק, המשלב טכניקות מקצועיות להזרמת הדם, שחרור שרירים תפוסים והפגת מתחים פיזיים ונפשיים.
+                    כסטודנטית לרפואה משלימה ומעסה שוודית מוסמכת, אני מאמינה שלגוף שלך מגיע הטוב ביותר. אני מזמינה אותך
+                    אליי הביתה לחוויית עיסוי שוודי קלאסי ומעמיק, המשלב טכניקות מקצועיות להזרמת הדם, שחרור שרירים תפוסים
+                    והפגת מתחים פיזיים ונפשיים.
                 </p>
                 <div class="quote-block p-3 p-sm-4 mx-auto text-start" style="max-width: 560px;">
-                    <p class="fst-italic m-0 lh-base small-on-mobile">
+                    <blockquote class="fst-italic m-0 lh-base small-on-mobile">
                         "בטיפולים שלי אני משלבת תנועות לישה, חיכוך וליטוף מובנות. המטרה שלי היא לעזור לך לשחרר את עומסי
                         היומיום, לשפר את גמישות השרירים ולצאת בתחושת קלילות ורעננות."
-                    </p>
+                    </blockquote>
                 </div>
             </section>
 
@@ -422,8 +439,8 @@
                                 class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-2 mb-sm-3">
                                 <i class="bi bi-clock text-accent-custom fs-5" aria-hidden="true"></i>
                             </div>
-                            <div class="fw-bold fs-5 mb-1 text-dark">עיסוי שוודי מלא (60 דק')</div>
-                            <div class="text-muted-custom small mb-2 mb-sm-3">טיפול הוליסטי ומעמיק מכף רגל ועד ראש</div>
+                            <h4 class="fw-bold fs-5 mb-1 text-dark">עיסוי שוודי מלא (60 דק')</h4>
+                            <p class="text-muted-custom small mb-2 mb-sm-3">טיפול הוליסטי ומעמיק מכף רגל ועד ראש</p>
                             <div class="price-amount text-primary-custom fw-bolder fs-1 lh-1">
                                 <span class="fs-4 fw-normal">₪</span>200
                             </div>
@@ -435,9 +452,9 @@
                                 class="price-icon-wrap rounded-circle d-flex align-items-center justify-content-center mx-auto mb-2 mb-sm-3">
                                 <i class="bi bi-clock text-accent-custom fs-5" aria-hidden="true"></i>
                             </div>
-                            <div class="fw-bold fs-5 mb-1 text-dark">עיסוי שוודי ממוקד (45 דק')</div>
-                            <div class="text-muted-custom small mb-2 mb-sm-3">טיפול קצר ואפקטיבי להפגת מתחים באזורים
-                                נבחרים</div>
+                            <h4 class="fw-bold fs-5 mb-1 text-dark">עיסוי שוודי ממוקד (45 דק')</h4>
+                            <p class="text-muted-custom small mb-2 mb-sm-3">טיפול קצר ואפקטיבי להפגת מתחים באזורים
+                                נבחרים</p>
                             <div class="price-amount text-primary-custom fw-bolder fs-1 lh-1">
                                 <span class="fs-4 fw-normal">₪</span>150
                             </div>
@@ -453,59 +470,50 @@
                     </div>
                     <h3 class="section-title fw-bold m-0">כאן אני מארחת אותך</h3>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="location-card overflow-hidden">
-                            <div class="row g-0">
-                                <div
-                                    class="col-sm-3 location-icon-col d-flex flex-row flex-sm-column align-items-center justify-content-center gap-2 p-2 p-sm-3 text-center">
-                                    <i class="bi bi-house-door text-white text-opacity-90 fs-5 fs-sm-2"
-                                        aria-hidden="true"></i>
-                                    <span class="text-white text-opacity-90 small fw-bold text-uppercase m-0"
-                                        style="letter-spacing: .08em; font-size: 0.85rem;">הקליניקה</span>
-                                </div>
-                                <div class="col-sm-9">
-                                    <div class="p-3 p-sm-4 text-center text-sm-start">
-                                        <div
-                                            class="d-flex align-items-center justify-content-center justify-content-sm-center gap-2 mb-3 flex-wrap">
-                                            <h4 class="location-city fw-bold fs-3 m-0 text-dark">
-                                                <i class="bi bi-geo-alt text-primary-custom" aria-hidden="true"></i>
-                                                נתניה
-                                            </h4>
-                                            <div class="d-flex gap-1">
-                                                <span class="location-badge text-white rounded-pill px-2 py-1 fw-medium"
-                                                    style="font-size: 0.85rem; letter-spacing: .02em;">קבלת קהל בבית</span>
-                                                <span class="location-badge text-white rounded-pill px-2 py-1 fw-medium"
-                                                    style="font-size: 0.85rem; letter-spacing: .02em; background: linear-gradient(135deg, var(--accent), var(--accent-lt));">לנשים בלבד</span>
-                                            </div>
-                                        </div>
-                                        <div class="row g-2 max-width-100 mx-auto ms-sm-0 mb-3 align-items-center justify-content-center justify-content-sm-center"
-                                            style="max-width: 100%;">
-                                            <div class="col-6 col-sm-auto">
-                                                <div class="meta-chip rounded-3 p-2 small text-dark d-flex gap-2 h-100">
-                                                    <i class="bi bi-calendar3 text-primary-custom fs-6"
-                                                        aria-hidden="true"></i>
-                                                    <span class="fw-medium">ימים א' - ה'</span>
-                                                </div>
-                                            </div>
-                                            <div class="col-6 col-sm-auto">
-                                                <div class="meta-chip rounded-3 p-2 small text-dark d-flex gap-2 h-100">
-                                                    <i class="bi bi-clock text-primary-custom fs-6"
-                                                        aria-hidden="true"></i>
-                                                    <span class="fw-medium">שעות הערב</span>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="text-start text-sm-start">
-                                            <p
-                                                class="text-muted-custom small m-0 pt-2 border-top border-secondary border-opacity-10 d-flex align-items-center justify-content-start justify-content-sm-start gap-2">
-                                                <i class="bi bi-info-circle text-primary-custom" aria-hidden="true"></i>
-                                                הקליניקה הביתית שלי – מרחב שקט, נעים ומותאם במיוחד עבורך אצלי בבית
-                                            </p>
-                                        </div>
-                                    </div>
+                <div class="location-card overflow-hidden max-width-560 mx-auto" style="max-width:600px;">
+                    <div class="row g-0">
+                        <div
+                            class="col-sm-3 location-icon-col d-flex flex-row flex-sm-column align-items-center justify-content-center gap-2 p-2 p-sm-3 text-center">
+                            <i class="bi bi-house-door text-white text-opacity-90 fs-5 fs-sm-2" aria-hidden="true"></i>
+                            <span class="text-white text-opacity-90 small fw-bold text-uppercase m-0"
+                                style="letter-spacing: .08em; font-size: 0.85rem;">הקליניקה</span>
+                        </div>
+                        <div class="col-sm-9 p-3 p-sm-4 text-center text-sm-start">
+                            <div class="d-flex align-items-center justify-content-center gap-2 mb-3 flex-wrap">
+                                <h4 class="location-city fw-bold fs-3 m-0 text-dark">
+                                    <i class="bi bi-geo-alt text-primary-custom" aria-hidden="true"></i> נתניה
+                                </h4>
+                                <div class="d-flex gap-2">
+                                    <span class="location-badge text-white rounded-pill px-2 py-1 fw-medium"
+                                        style="font-size: 0.85rem; letter-spacing: .02em;">קבלת קהל בבית</span>
+                                    <span class="location-badge text-white rounded-pill px-2 py-1 fw-medium"
+                                        style="font-size: 0.85rem; letter-spacing: .02em; background: linear-gradient(135deg, var(--accent), var(--accent-lt));">לנשים
+                                        בלבד</span>
                                 </div>
+                            </div>
+
+                            <div
+                                class="d-flex flex-row gap-3 gap-sm-4 justify-content-center justify-content-sm-center mb-3">
+                                <div
+                                    class="meta-chip rounded-3 p-2 px-3 small text-dark d-flex gap-2 align-items-center">
+                                    <i class="bi bi-calendar3 text-primary-custom fs-6" aria-hidden="true"></i>
+                                    <span class="fw-medium">ימים א' - ה'</span>
+                                </div>
+                                <div
+                                    class="meta-chip rounded-3 p-2 px-3 small text-dark d-flex gap-2 align-items-center">
+                                    <i class="bi bi-clock text-primary-custom fs-6" aria-hidden="true"></i>
+                                    <span class="fw-medium">שעות הערב</span>
+                                </div>
+                            </div>
+
+                            <div class="text-start text-sm-start">
+                                <p
+                                    class="text-muted-custom small m-0 pt-2 border-top border-secondary border-opacity-10 d-flex align-items-center justify-content-center justify-content-sm-start gap-2">
+                                    <i class="bi bi-info-circle text-primary-custom" aria-hidden="true"></i> הקליניקה
+                                    הביתית
+                                    שלי – מרחב שקט, נעים ומותאם במיוחד עבורך אצלי בבית
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -536,12 +544,11 @@
     </main>
 
     <footer class="bg-custom-main text-center p-4 text-muted-custom border-top border-secondary border-opacity-10">
-        <p class="m-0">© <span id="year"></span> אסתר | כל הזכויות שמורות</p>
+        <p class="m-0">© <span id="year">
+                <script>document.write(new Date().getFullYear());</script>
+            </span> אסתר | כל הזכויות שמורות</p>
     </footer>
 
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
 </body>
 
 </html>
