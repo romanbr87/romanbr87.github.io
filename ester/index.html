@@ -10,11 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
-    <link rel="preload" href="bg.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="bg.webp" as="image" type="image/webp" fetchpriority="high"
+        imagesrcset="bg.webp 400w, bg.webp 600w, bg.webp 800w" imagesizes="(max-width: 576px) 250px, 380px">
     <link rel="preload" href="https://fonts.gstatic.com/s/heebo/v22/NGcH7I_f8g2v2DR09ldLksS8GQ.woff2" as="font"
         type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/frankruhllibre/v19/m20v7JF9_yvX9_S6f88T8D5IcdA06S8O1pE.woff2"
         as="font" type="font/woff2" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap"
+        as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" as="style">
 
     <meta name="description"
         content="מעסה שוודית מוסמכת וסטודנטית לרפואה משלימה במכללת רידמן. מזמינה אתכן לטיפול מקצועי ומעמיק אצלי בבית עם מגע מרגיע ומפיג מתחים. צרי קשר לתיאום תור." />
@@ -408,7 +413,7 @@
                 <img src="bg.webp" srcset="bg.webp 400w, bg.webp 600w, bg.webp 800w"
                     sizes="(max-width: 576px) 250px, 380px" alt="אסתר - עיסוי שוודי מקצועי בנתניה"
                     class="w-100 h-auto d-block object-fit-cover" width="380" height="366"
-                    style="aspect-ratio: 380 / 366;" fetchpriority="high" decoding="async" loading="eager" />
+                    style="aspect-ratio: 380 / 366;" fetchpriority="high" decoding="sync" loading="eager" />
             </div>
         </div>
 
