@@ -1,0 +1,18 @@
+{
+  "short_name": "אסתר",
+  "name": "אצל אסתר — עיסוי שוודי מקצועי",
+  "icons": [
+    {
+      "src": "bg.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/ester/",
+  "display": "standalone",
+  "theme_color": "#ffffff", 
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/ester/"
+}
