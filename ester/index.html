@@ -11,7 +11,10 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 
     <link rel="preload" href="bg.webp" as="image" type="image/webp" fetchpriority="high">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" as="style">
+    <link rel="preload" href="https://fonts.gstatic.com/s/heebo/v22/NGcH7I_f8g2v2DR09ldLksS8GQ.woff2" as="font"
+        type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/frankruhllibre/v19/m20v7JF9_yvX9_S6f88T8D5IcdA06S8O1pE.woff2"
+        as="font" type="font/woff2" crossorigin>
 
     <meta name="description"
         content="מעסה שוודית מוסמכת וסטודנטית לרפואה משלימה במכללת רידמן. מזמינה אתכן לטיפול מקצועי ומעמיק אצלי בבית עם מגע מרגיע ומפיג מתחים. צרי קשר לתיאום תור." />
@@ -37,8 +40,8 @@
     <meta property="og:locale" content="he_IL" />
     <meta property="og:image" content="https://romanbr87.github.io/ester/bg.webp" />
     <meta property="og:image:type" content="image/webp" />
-    <meta property="og:image:width" content="1277" />
-    <meta property="og:image:height" content="1231" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="אסתר - עיסוי שוודי מקצועי" />
 
     <meta name="mobile-web-app-capable" content="yes" />
@@ -71,9 +74,15 @@
     </script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@400;700;900&display=swap">
+    </noscript>
 
     <style>
         :root {
@@ -94,11 +103,10 @@
         }
 
         body {
-            font-family: 'Heebo', sans-serif;
+            font-family: 'Heebo', Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text);
             min-height: 100vh;
-            /* Prevents layout shifting during asset loads */
         }
 
         a:focus-visible,
@@ -147,7 +155,7 @@
         }
 
         .hero h1 {
-            font-family: 'Frank Ruhl Libre', serif;
+            font-family: 'Frank Ruhl Libre', 'Times New Roman', serif;
             font-size: clamp(2.5rem, 8vw, 6rem);
             letter-spacing: -.02em;
             line-height: 1.2;
@@ -239,7 +247,7 @@
         }
 
         .section-title {
-            font-family: 'Frank Ruhl Libre', serif;
+            font-family: 'Frank Ruhl Libre', 'Times New Roman', serif;
             font-size: clamp(1.5rem, 5vw, 2.5rem);
         }
 
@@ -292,7 +300,7 @@
         }
 
         .price-amount {
-            font-family: 'Frank Ruhl Libre', serif;
+            font-family: 'Frank Ruhl Libre', 'Times New Roman', serif;
         }
 
         .location-card {
@@ -314,7 +322,7 @@
         }
 
         .location-city {
-            font-family: 'Frank Ruhl Libre', serif;
+            font-family: 'Frank Ruhl Libre', 'Times New Roman', serif;
         }
 
         .location-badge {
@@ -511,8 +519,7 @@
                                 <p
                                     class="text-muted-custom small m-0 pt-2 border-top border-secondary border-opacity-10 d-flex align-items-center justify-content-center justify-content-sm-start gap-2">
                                     <i class="bi bi-info-circle text-primary-custom" aria-hidden="true"></i> הקליניקה
-                                    הביתית
-                                    שלי – מרחב שקט, נעים ומותאם במיוחד עבורך אצלי בבית
+                                    הביתית שלי – מרחב שקט, נעים ומותאם במיוחד עבורך אצלי בבית
                                 </p>
                             </div>
                         </div>
@@ -544,11 +551,12 @@
     </main>
 
     <footer class="bg-custom-main text-center p-4 text-muted-custom border-top border-secondary border-opacity-10">
-        <p class="m-0">© <span id="year">
-                <script>document.write(new Date().getFullYear());</script>
-            </span> אסתר | כל הזכויות שמורות</p>
+        <p class="m-0">© <span id="year">2026</span> אסתר | כל הזכויות שמורות</p>
     </footer>
 
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
